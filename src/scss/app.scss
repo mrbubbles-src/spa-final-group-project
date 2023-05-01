@@ -1,0 +1,64 @@
+// Shared Variables
+@import "./fonts";
+@import "./sizes";
+@import "./colors";
+@import "./mixins";
+// Components
+@import "../components/Footer/footer.scss";
+@import "../components/Navbar/nav.scss";
+// Pages
+@import "../pages/Home/home.scss";
+@import "../pages/NotFound/notfound.scss";
+
+/*
+// Siehe _fonts.scss \\
+Font Families die benutzt werden können:
+MontserratRegular
+MontserratItalic
+MontserratMedium
+MontserratMediumItalic
+MontserratSemiBold
+MontserratSemiBoldItalic
+MontserratBold
+MontserratBoldItalic
+*/
+
+/*
+Basis werte hier stylen.
+(also sowas wie body, h1 etc)
+individulle stylings in den component/pages spezifischen scss
+dateien machen und oben an der entsprechenden stelle importieren
+*/
+:root {
+    font: {
+        size: 62.5%;
+    }
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    font: {
+        size: 1.6rem;
+        family: MontserratRegular, sans-serif;
+    }
+    display: flex;
+    flex: {
+        direction: column;
+    }
+    align-items: center;
+}
+.main-container {
+    display: flex;
+    font-size: $m;
+    padding: 3rem 1rem;
+    justify-content: center;
+
+    a {
+        color: $dblue;
+    }
+}
