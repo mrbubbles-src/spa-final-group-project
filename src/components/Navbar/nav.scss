@@ -15,7 +15,6 @@
         border: 1px solid;
     }
     .nav-link-container {
-        // width: 100%;
         background-color: $dblue;
         position: relative;
         top: 0.2rem;
@@ -28,6 +27,18 @@
         }
         .link {
             color: $white;
+            &:hover {
+                color: black;
+                font: {
+                    weight: bold;
+                }
+            }
+        }
+        .active {
+            font: {
+                weight: bold;
+            }
+            text-decoration: underline solid 0.3rem;
         }
     }
     .hamburger-menu {

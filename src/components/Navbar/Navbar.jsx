@@ -18,7 +18,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="leistungen"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
@@ -28,7 +28,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="artikel"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
@@ -38,7 +38,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="galerie"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
@@ -48,7 +48,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="about"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
@@ -58,7 +58,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="kontakt"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
@@ -68,7 +68,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="rhodos"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
@@ -78,7 +78,7 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="/"
+                        to="links"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
                         }
