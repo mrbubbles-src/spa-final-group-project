@@ -11,9 +11,7 @@
     position: fixed;
     top: 0;
     background-color: $dblue;
-    .hamburger {
-        border: 1px solid;
-    }
+
     .nav-link-container {
         background-color: $dblue;
         position: relative;
@@ -24,6 +22,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            @media (min-width: 992px) {
+                display: initial;
+            }
         }
         .link {
             color: $white;
@@ -40,6 +41,11 @@
             }
             text-decoration: underline solid 0.3rem;
         }
+        @media (min-width: 992px) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
     .hamburger-menu {
         width: 100%;
@@ -49,5 +55,8 @@
             size: 3.9rem;
         }
         color: $white;
+        @media (min-width: 992px) {
+            display: none;
+        }
     }
 }
