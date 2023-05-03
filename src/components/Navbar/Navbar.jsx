@@ -1,9 +1,5 @@
 const Navbar = () => {
-    return (
-        <header>
-            <nav>hier könnte ihre nav stehen</nav>
-        </header>
-    );
+    return <nav>hier könnte ihre nav stehen</nav>;
 };
 
 export default Navbar;
