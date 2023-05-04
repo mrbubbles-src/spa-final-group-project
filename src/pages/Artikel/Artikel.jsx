@@ -33,7 +33,6 @@ const Artikel = () => {
             </div>
 
             <CardContainer>
-                <p>hay</p>
                 <ArtikelCard />
             </CardContainer>
         </>
