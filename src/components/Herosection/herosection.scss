@@ -126,8 +126,8 @@
         border: {
             radius: 1.5rem;
         }
-        -webkit-box-shadow: 0px 0px 6px 0px black;
-        box-shadow: 0px 0px 6px 0px black;
+        -webkit-box-shadow: 0px 0px 6px 0px #000000;
+        box-shadow: 0px 0px 6px 0px #000000;
     }
     @media (min-width: 992px) {
         display: none;
