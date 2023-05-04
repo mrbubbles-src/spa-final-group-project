@@ -4,6 +4,7 @@ import "./scss/app.scss";
 import SharedLayout from "./pages/SharedLayout";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
+import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
                     <Route path="/" element={<SharedLayout />}>
                         <Route index element={<Home />} />
                         {/* AN DIESER STELLE ZWISCHEN HOME UND NOTFOUND DIE ANDEREN ROUTEN ZU DEN SEITEN EINFÜGEN! */}
+                        <Route path="impressum" element={<Impressum />} />
                         <Route
                             path="dataprotection"
                             element={<DataProtection />}

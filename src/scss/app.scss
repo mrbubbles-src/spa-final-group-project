@@ -10,6 +10,7 @@
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
+@import "../pages/Impressum/impressum.scss";
 @import "../pages/DataProtection/dataProtection.scss";
 
 /*
@@ -56,13 +57,14 @@ body {
     // align-items: center;
 }
 .main-container {
+    // display: flex;
     outline: 1px solid;
     display: flex;
     // position: relative;
     // top: 5rem;
     font-size: $m;
     padding: 3rem 1rem;
-    justify-content: center;
+    // justify-content: center;
 
     a {
         color: $dblue;
