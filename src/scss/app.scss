@@ -49,7 +49,7 @@ dateien machen und oben an der entsprechenden stelle importieren
 body {
     height: 100vh;
     font: {
-        size: 1.6rem;
+        size: $m;
         family: MontserratRegular, sans-serif;
     }
     // display: flex;
@@ -64,7 +64,6 @@ body {
     display: flex;
     // position: relative;
     // top: 5rem;
-    font-size: $m;
     padding: 3rem 1rem;
     // justify-content: center;
 
@@ -77,3 +76,24 @@ footer {
     position: relative;
     top: 100vh;
 }
+// .main-title {
+//     // h1
+// }
+// .sub-head {
+//     // h2
+// }
+// .paragraph {
+//     // p
+// }
+// .buttons {
+//     // buttons
+// }
+// .site-links {
+//     // link
+// }
+// .contact-links {
+//     // a
+// }
+// .images {
+//     // img
+// }
