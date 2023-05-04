@@ -4,7 +4,7 @@ const Links = () => {
     return (
         <>
             <article>
-                <h2 id="mid_head">Links</h2>
+                <h2 className="sub-head">Links</h2>
 
                 <p>
                     Hier haben wir einige informative Links in alphabetischer
