@@ -7,7 +7,6 @@
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
 @import "../components/ArtikelCard/artikelCard.scss";
-@import "../components/Herosection/herosection.scss";
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
@@ -96,3 +95,5 @@ footer {
 // .images {
 //     // img
 // }
+
+@import "../components/Herosection/herosection.scss";

@@ -1,0 +1,102 @@
+.herosection {
+    // outline: 2px solid red;
+    margin: {
+        top: 5.2rem;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: {
+        direction: column;
+    }
+    text-align: center;
+    .herosection-logo-container {
+        margin: {
+            top: $xl;
+        }
+        .herosection-logo {
+            width: 100%;
+            max-width: 38rem;
+        }
+    }
+    .herosection-header-container {
+        padding: 1rem;
+        .herosection-header-title {
+            font: {
+                size: 1.85rem;
+            }
+        }
+        .herosection-header-animals {
+            font: {
+                size: $s;
+            }
+            padding: {
+                top: 0.5rem;
+                bottom: 0.5rem;
+            }
+        }
+        .herosection-header-adress {
+            font: {
+                size: $xs;
+            }
+            color: $dblue;
+        }
+    }
+    .herosection-times-container {
+        .herosection-gradient {
+            background: linear-gradient(90deg, $dblue 0%, $lgblue 100%);
+            height: 0.2rem;
+        }
+        .herosection-times-title {
+            font: {
+                size: $m;
+            }
+            padding: {
+                top: 0.5rem;
+            }
+        }
+        .herosection-times-table {
+            margin: {
+                top: 15px;
+            }
+            font: {
+                family: MontserratBold, sans-serif;
+                size: $xs;
+            }
+            .herosection-times-table-row {
+                .herosection-times-table-head {
+                    text: {
+                        decoration: underline;
+                    }
+                }
+                .herosection-times-table-data {
+                    padding: 0.5rem;
+                }
+                &:nth-child(3) .herosection-times-table-data:nth-child(3) {
+                    color: crimson;
+                }
+            }
+        }
+    }
+}
+.herosection-contact {
+    outline: 1px solid red;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    gap: 3rem;
+    .herosection-contact-icons {
+        color: $white;
+        background-color: $lgblue;
+        font: {
+            size: 3rem;
+        }
+        padding: 1rem 6.5rem;
+        border: {
+            radius: 1.5rem;
+        }
+    }
+    @media (min-width: 992px) {
+        display: none;
+    }
+}

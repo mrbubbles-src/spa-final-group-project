@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Logo from "../../assets/images/logo/logo_noname_alt.png";
+import Logo from "/src/assets/images/logo/logo_noname_alt.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,14 +17,14 @@ const Herosection = () => {
                     </Link>
                 </div>
                 <div className="herosection-header-container">
-                    <h1 className="herosection-header-title">
+                    <h1 className="herosection-header-title main-title">
                         Tierarzpraxis Dr. med. vet. Volker R. Gerlitzki
                     </h1>
-                    <h2 className="herosection-header-animals">
+                    <h2 className="herosection-header-animals sub-head">
                         Kleintiere &middot; Heimtiere &middot; Reptilien
                         &middot; Amphibien &middot; Vögel
                     </h2>
-                    <h3 className="herosection-herosection-adress">
+                    <h3 className="herosection-header-adress">
                         Wentorfer Straße 15 &middot; 21029 Hamburg &middot;
                         Telefon: 040 / 721 4244
                     </h3>
@@ -77,7 +77,7 @@ const Herosection = () => {
                             </td>
                         </tr>
                     </table>
-                    <div className="gradient"></div>
+                    <div className="herosection-gradient"></div>
                 </div>
             </header>
             <section className="herosection-contact">
