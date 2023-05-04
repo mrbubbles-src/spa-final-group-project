@@ -4,6 +4,7 @@ import "./scss/app.scss";
 import SharedLayout from "./pages/SharedLayout";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
+import Kontakt from "./pages/Kontakt/Kontakt";
 import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
 
@@ -12,9 +13,14 @@ function App() {
         <PraxisProvider>
             <BrowserRouter>
                 <Routes>
-                    <Route path="/" element={<SharedLayout />}>
+                    <Route path='/' element={<SharedLayout />}>
                         <Route index element={<Home />} />
                         {/* AN DIESER STELLE ZWISCHEN HOME UND NOTFOUND DIE ANDEREN ROUTEN ZU DEN SEITEN EINFÜGEN! */}
+                        <Route
+                            path='kontakt'
+                            element={<Kontakt />}
+                        />
+                        <Route path='*' element={<NotFound />} />
                         <Route path="impressum" element={<Impressum />} />
                         <Route
                             path="dataprotection"
