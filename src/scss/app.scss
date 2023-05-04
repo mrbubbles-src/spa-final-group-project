@@ -6,6 +6,8 @@
 // Components
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
+@import "../components/ArtikelCard/artikelCard.scss";
+
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
@@ -46,7 +48,7 @@ body {
         size: 1.6rem;
         family: MontserratRegular, sans-serif;
     }
-    display: flex;
+    // display: flex;
     flex: {
         direction: column;
     }
