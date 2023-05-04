@@ -4,11 +4,13 @@
 @import "./colors";
 @import "./mixins";
 // Components
+
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
+@import "../pages/DataProtection/dataProtection.scss";
 
 /*
 // Siehe _fonts.scss \\
