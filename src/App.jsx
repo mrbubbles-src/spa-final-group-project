@@ -13,6 +13,7 @@ function App() {
                     <Route path="/" element={<SharedLayout />}>
                         <Route index element={<Home />} />
                         {/* AN DIESER STELLE ZWISCHEN HOME UND NOTFOUND DIE ANDEREN ROUTEN ZU DEN SEITEN EINFÜGEN! */}
+
                         <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
