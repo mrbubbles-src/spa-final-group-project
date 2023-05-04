@@ -5,6 +5,8 @@ import SharedLayout from "./pages/SharedLayout";
 import Home from "./pages/Home/Home";
 import NotFound from "./pages/NotFound/NotFound";
 import Kontakt from "./pages/Kontakt/Kontakt";
+import Impressum from "./pages/Impressum/Impressum";
+import DataProtection from "./pages/DataProtection/DataProtection";
 
 function App() {
     return (
@@ -19,6 +21,12 @@ function App() {
                             element={<Kontakt />}
                         />
                         <Route path='*' element={<NotFound />} />
+                        <Route path="impressum" element={<Impressum />} />
+                        <Route
+                            path="dataprotection"
+                            element={<DataProtection />}
+                        />
+                        <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
             </BrowserRouter>
