@@ -4,6 +4,7 @@
 @import "./colors";
 @import "./mixins";
 // Components
+
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
 @import "../components/ArtikelCard/artikelCard.scss";
@@ -11,6 +12,8 @@
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
+@import "../pages/Impressum/impressum.scss";
+@import "../pages/DataProtection/dataProtection.scss";
 
 /*
 // Siehe _fonts.scss \\
@@ -44,23 +47,33 @@ dateien machen und oben an der entsprechenden stelle importieren
     list-style-type: none;
 }
 body {
+    height: 100vh;
     font: {
         size: 1.6rem;
         family: MontserratRegular, sans-serif;
     }
     // display: flex;
-    flex: {
-        direction: column;
-    }
-    align-items: center;
+    // flex: {
+    //     direction: column;
+    // }
+    // align-items: center;
 }
 .main-container {
+    // display: flex;
+    outline: 1px solid;
     display: flex;
+    // position: relative;
+    // top: 5rem;
     font-size: $m;
     padding: 3rem 1rem;
-    justify-content: center;
+    // justify-content: center;
 
     a {
         color: $dblue;
     }
+}
+footer {
+    outline: 1px solid;
+    position: relative;
+    top: 100vh;
 }
