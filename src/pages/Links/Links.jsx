@@ -12,7 +12,7 @@ const Links = () => {
                 </p>
                 <div>
                     <ul>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="https://www.dght.de/startseite">
                                 Deutschen Gesellschaft für Herpetologie und
                                 Terrarienkunde (DGHT)
@@ -20,35 +20,35 @@ const Links = () => {
                             Die Website der Deutschen Gesellschaft für
                             Herpetologie und Terrarienkunde
                         </li>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="https://www.bundestieraerztekammer.de/tieraerzte/beruf/got/">
                                 GOT
                             </a>
                             Gebührenordnung für Tierärzte
                         </li>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="http://www.terrarien-freunde-hamburg.de/">
                                 Terrarienfreunde Hamburg
                             </a>
                             Die Website der Terrarienfreunde Hamburg
                         </li>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="https://www.tasso.net/">Tiernotruf.org</a>
                             Die Website von TASSO e.V.
                         </li>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="http://www.tierschutzbund.de/00524.html">
                                 Tierschutzbund
                             </a>
                             Die Website des Deutschen Tierschutzbundes e.V
                         </li>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="https://www.agila.de/?VermittlerID=11&gclid=Cj0KCQiA1sucBhDgARIsAFoytUtaV3FPyB5cAf9xXKu7m32abyoYxq0VWqoM3iraqP9b34WgCtdtj6QaAkk6EALw_wcB">
                                 Tierversicherung
                             </a>
                             AGILA
                         </li>
-                        <li>
+                        <li className="informationen-liste">
                             <a href="https://www.comfortplan.de/">
                                 Tierversicherung Versicherungsvergleich
                             </a>
