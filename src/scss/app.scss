@@ -42,18 +42,22 @@ dateien machen und oben an der entsprechenden stelle importieren
     list-style-type: none;
 }
 body {
+    height: 100vh;
     font: {
         size: 1.6rem;
         family: MontserratRegular, sans-serif;
     }
-    display: flex;
-    flex: {
-        direction: column;
-    }
-    align-items: center;
+    // display: flex;
+    // flex: {
+    //     direction: column;
+    // }
+    // align-items: center;
 }
 .main-container {
+    outline: 1px solid;
     display: flex;
+    // position: relative;
+    // top: 5rem;
     font-size: $m;
     padding: 3rem 1rem;
     justify-content: center;
@@ -61,4 +65,9 @@ body {
     a {
         color: $dblue;
     }
+}
+footer {
+    outline: 1px solid;
+    position: relative;
+    top: 100vh;
 }
