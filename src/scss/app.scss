@@ -43,22 +43,20 @@ body {
 }
 .main-container {
     width: 100%;
-    // display: flex;
-    outline: 1px solid;
+    margin: {
+        top: 4px;
+    }
     display: flex;
-    // position: relative;
-    // top: 5rem;
     padding: 3rem 1rem;
-    // justify-content: center;
 }
 footer {
     outline: 1px solid;
     position: relative;
     top: 100vh;
 }
-// .main-title {
-//     // h1
-// }
+.main-title {
+    color: $dblue;
+}
 .sub-head {
     text-align: center;
     font-size: $xxl;
@@ -70,9 +68,6 @@ footer {
         size: $m;
     }
 }
-// .buttons {
-//     // buttons
-// }
 .site-links {
     text-decoration: none;
     color: $dblue;
@@ -80,8 +75,3 @@ footer {
         weight: 700;
     }
 }
-
-// }
-// .images {
-//     // img
-// }
