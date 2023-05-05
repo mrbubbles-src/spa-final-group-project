@@ -11,6 +11,8 @@ import Kontakt from "./pages/Kontakt/Kontakt";
 import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
 import Galerie from "./pages/Galerie/Galerie";
+import "./pages/Home/home.scss";
+import Leistungen from "./pages/Leistungen/Leistungen";
 
 function App() {
     return (
@@ -20,7 +22,6 @@ function App() {
                     <Route path="/" element={<SharedLayout />}>
                         <Route index element={<Home />} />
                         {/* AN DIESER STELLE ZWISCHEN HOME UND NOTFOUND DIE ANDEREN ROUTEN ZU DEN SEITEN EINFÜGEN! */}
-
                         <Route path="/artikel" element={<Artikel />} />
                         <Route path="galerie" element={<Galerie />} />
                         <Route path="kontakt" element={<Kontakt />} />
@@ -29,6 +30,7 @@ function App() {
                             path="dataprotection"
                             element={<DataProtection />}
                         />
+                        <Route path="leistungen" element={<Leistungen />} />
                         <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
