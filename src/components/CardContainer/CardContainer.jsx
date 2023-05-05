@@ -1,5 +1,5 @@
 const CardContainer = ({ children }) => {
-    return <article className="article_cards">{children}</article>;
+    return <article>{children}</article>;
 };
 
 export default CardContainer;

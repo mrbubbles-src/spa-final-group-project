@@ -10,6 +10,7 @@ import Kontakt from "./pages/Kontakt/Kontakt";
 import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
 import "./pages/Home/home.scss";
+import Leistungen from "./pages/Leistungen/Leistungen";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                             path="dataprotection"
                             element={<DataProtection />}
                         />
+                        <Route path="leistungen" element={<Leistungen />} />
                         <Route path="*" element={<NotFound />} />
                     </Route>
                 </Routes>
