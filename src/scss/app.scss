@@ -8,13 +8,16 @@
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
 @import "../components/ArtikelCard/artikelCard.scss";
-
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
 @import "../pages/Impressum/impressum.scss";
 @import "../pages/DataProtection/dataProtection.scss";
+
 @import "../pages/Links/links.scss";
+
+@import "../pages/Leistungen/leistungen.scss";
+
 
 /*
 // Siehe _fonts.scss \\
@@ -28,7 +31,6 @@ MontserratSemiBoldItalic
 MontserratBold
 MontserratBoldItalic
 */
-
 /*
 Basis werte hier stylen.
 (also sowas wie body, h1 etc)
@@ -53,11 +55,6 @@ body {
         size: $m;
         family: MontserratRegular, sans-serif;
     }
-    // display: flex;
-    // flex: {
-    //     direction: column;
-    // }
-    // align-items: center;
 }
 .main-container {
     // display: flex;
@@ -68,9 +65,6 @@ body {
     padding: 3rem 1rem;
     // justify-content: center;
 
-    a {
-        color: $dblue;
-    }
 }
 footer {
     outline: 1px solid;
@@ -80,21 +74,31 @@ footer {
 // .main-title {
 //     // h1
 // }
-// .sub-head {
-//     // h2
-// }
-// .paragraph {
-//     // p
-// }
+.sub-head {
+    text-align: center;
+    font-size: $xxl;
+    color: $dblue;
+    text-decoration: underline;
+}
+.paragraph {
+    font: {
+        size: $m;
+    }
+}
 // .buttons {
 //     // buttons
 // }
-// .site-links {
-//     // link
-// }
-// .contact-links {
-//     // a
+.site-links {
+    text-decoration: none;
+    color: $dblue;
+    font: {
+        weight: 700;
+    }
+}
+
 // }
 // .images {
 //     // img
 // }
+
+@import "../components/Herosection/herosection.scss";
