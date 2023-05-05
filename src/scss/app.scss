@@ -1,27 +1,8 @@
-// Shared Variables
 @import "./fonts";
 @import "./sizes";
 @import "./colors";
 @import "./mixins";
 
-/*
-// Siehe _fonts.scss \\
-Font Families die benutzt werden können:
-MontserratRegular
-MontserratItalic
-MontserratMedium
-MontserratMediumItalic
-MontserratSemiBold
-MontserratSemiBoldItalic
-MontserratBold
-MontserratBoldItalic
-*/
-/*
-Basis werte hier stylen.
-(also sowas wie body, h1 etc)
-individulle stylings in den component/pages spezifischen scss
-dateien machen und oben an der entsprechenden stelle importieren
-*/
 :root {
     font: {
         size: 62.5%;
