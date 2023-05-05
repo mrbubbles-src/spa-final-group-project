@@ -1,26 +1,22 @@
-// import React from 'react';
-
-import { Link } from "react-router-dom";
+import VolkerGerlitzki from "../../assets/images/aerzte/volkerg.jpeg";
+import BirgitJoswig from "../../assets/images/aerzte/birgit-5d30482f.jpg";
 
 const Praxis = () => {
     return (
         <>
-            <section className="welcome">
-                <div className="text_container_top">
-                    <div className="text_container">
-                        <h2 className="sub-head">Über die Praxis</h2>
-                    </div>
-                </div>
-            </section>
-            <section className="information">
-                <article className="article_cards">
-                    <div className="image-container">
+            <h2 className="praxis-sub-head sub-head">Über die Praxis</h2>
+            <section className="praxis-section-container information">
+                <article className="praxis-card article_cards">
+                    <div className="praxis-image-container image-container">
                         <img
-                            src="../images/volkerg.jpeg"
+                            className="praxis-image"
+                            src={VolkerGerlitzki}
                             alt="Tierarzt Dr. Volker Robert Gerlitzki"
                         />
                     </div>
-                    <h3>Tierarzt Dr. Volker Robert Gerlitzki</h3>
+                    <h3 className="praxis-card-head">
+                        Tierarzt Dr. Volker Robert Gerlitzki
+                    </h3>
                     <p>
                         Von 1983 bis 1989 hat Dr. Gerlitzki Tiermedizin an der
                         Tierärztlichen Hochschule in Hannover studiert und
@@ -53,20 +49,23 @@ const Praxis = () => {
                         tätig.
                     </p>
                 </article>
-                <article className="article_cards">
-                    <div className="image-container">
+                <article className="praxis-card article_cards">
+                    <div className="praxis-image-container image-container">
                         <img
-                            src="../images/birgit-5d30482f.jpg"
+                            className="praxis-image"
+                            src={BirgitJoswig}
                             alt="Tierärztin Dr. Birgit Joswig"
                         />
                     </div>
-                    <h3>Tierärztin Dr. Birgit Joswig</h3>
-                    <ul>
-                        <li>Geb.: 04.09.1966</li>
-                        <li>Approbation: 1993</li>
-                        <li>Promotion: 1995</li>
+                    <h3 className="praxis-card-head">
+                        Tierärztin Dr. Birgit Joswig
+                    </h3>
+                    <ul className="praxis-list-container">
+                        <li className="praxis-list-item">Geb.: 04.09.1966</li>
+                        <li className="praxis-list-item">Approbation: 1993</li>
+                        <li className="praxis-list-item">Promotion: 1995</li>
                     </ul>
-                    <p>
+                    <p className="praxis-paragraph paragraph">
                         Von 2000 bis 2009 führte Sie eine eigene Praxis in
                         Vierlanden. Seit 2009 ist Sie für die pharmazeutische
                         Industrie in der vorklinischen und klinischen Forschung
@@ -77,23 +76,26 @@ const Praxis = () => {
                 </article>
             </section>
 
-            <section className="welcome">
+            {/* <section className="welcome">
                 <div className="text_container_top">
                     <div className="text_container praxis-text">
-                        <h2 id="mid_head">Unsere Räumlichkeiten</h2>
-                        <p>
+                        <h2 className="praxis-sub-head sub-head">
+                            Unsere Räumlichkeiten
+                        </h2>
+                        <p className="praxis-paragraph paragraph">
                             Hier sehen Sie einen kleinen Vorgeschmack auf unsere
                             Räumlichkeiten.
                         </p>
-                        <p>
+                        <p className="praxis-paragraph paragraph">
                             Für mehr Bilder, besuchen Sie doch unsere
                             <Link to="/galerie">Galerie</Link>
                         </p>
                     </div>
                 </div>
-                <section className="galerie-container">
+            <section className="galerie-container">
                     <div className="galerie-item">
                         <a
+                        className=""
                             href="../images/praxis_außen3.jpg"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -117,7 +119,7 @@ const Praxis = () => {
                         </a>
                     </div>
                 </section>
-            </section>
+            </section> */}
         </>
     );
 };
