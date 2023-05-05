@@ -4,11 +4,9 @@
 @import "./colors";
 @import "./mixins";
 // Components
-
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
 @import "../components/ArtikelCard/artikelCard.scss";
-
 // Pages
 @import "../pages/Home/home.scss";
 @import "../pages/NotFound/notfound.scss";
@@ -51,20 +49,12 @@ body {
         size: $m;
         family: MontserratRegular, sans-serif;
     }
-    // display: flex;
-    // flex: {
-    //     direction: column;
-    // }
-    // align-items: center;
 }
 .main-container {
-    // display: flex;
-    outline: 1px solid;
-    display: flex;
-    // position: relative;
-    // top: 5rem;
-    padding: 3rem 1rem;
-    // justify-content: center;
+    width: 100%;
+    margin: {
+        top: 4px;
+    }
 
     a {
         color: $dblue;
@@ -96,3 +86,5 @@ footer {
 // .images {
 //     // img
 // }
+
+@import "../components/Herosection/herosection.scss";
