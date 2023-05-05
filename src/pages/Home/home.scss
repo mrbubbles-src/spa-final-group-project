@@ -1,7 +1,8 @@
-@import "../../scss/fonts";
-@import "../../scss/sizes";
-@import "../../scss/colors";
-@import "../../scss/mixins";
+@import "/src/scss/fonts";
+@import "/src/scss/sizes";
+@import "/src/scss/colors";
+@import "/src/scss/mixins";
+
 main {
     display: flex;
     flex-flow: column;
