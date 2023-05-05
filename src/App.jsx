@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PraxisProvider from "./context/PraxisProvider";
 import "./scss/app.scss";
+import "./pages/Galerie/galerie.scss";
 import SharedLayout from "./pages/SharedLayout";
 import Home from "./pages/Home/Home";
 import Artikel from "./pages/Artikel/Artikel";
