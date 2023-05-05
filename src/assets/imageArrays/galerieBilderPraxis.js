@@ -1,10 +1,10 @@
 export const praxis = [
     {
-        img: "/src/assets/images/praxis/praxis_außen1",
+        img: "/src/assets/images/praxis/praxis_außen1.jpg",
         alt: "Außenansicht Praxis nah",
     },
     {
-        img: "/src/assets/images/praxis/praxis_außen3",
+        img: "/src/assets/images/praxis/praxis_außen3.jpg",
         alt: "Außenansicht Praxis fern",
     },
     {
