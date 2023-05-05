@@ -1,4 +1,6 @@
 import GalleryContainer from "../../components/GalleryContainer/GalleryContainer";
+import { galerieBilderTiere } from "../../assets/imageArrays/galerieBilderTiere";
+import { galerieBilderPraxis } from "../../assets/imageArrays/galerieBilderPraxis";
 
 const Galerie = () => {
     return (
@@ -6,11 +8,11 @@ const Galerie = () => {
             <section className="galerie-container">
                 <h2 className="galerie-sub-title sub-head">Galerie</h2>
                 <h3 className="galerie-section-title">Unsere Patienten</h3>
-                <GalleryContainer></GalleryContainer>
+                <GalleryContainer tierGalerie={galerieBilderTiere} />
             </section>
             <section className="galerie-container">
                 <h3 className="galerie-section-title">Unsere Praxis</h3>
-                <GalleryContainer></GalleryContainer>
+                <GalleryContainer praxisGalerie={galerieBilderPraxis} />
             </section>
         </>
     );
