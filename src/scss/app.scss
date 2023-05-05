@@ -4,6 +4,7 @@
 @import "./colors";
 @import "./mixins";
 // Components
+
 @import "../components/Footer/footer.scss";
 @import "../components/Navbar/nav.scss";
 @import "../components/ArtikelCard/artikelCard.scss";
@@ -13,6 +14,7 @@
 @import "../pages/Impressum/impressum.scss";
 @import "../pages/DataProtection/dataProtection.scss";
 @import "../pages/Leistungen/leistungen.scss";
+
 /*
 // Siehe _fonts.scss \\
 Font Families die benutzt werden können:
@@ -51,14 +53,14 @@ body {
     }
 }
 .main-container {
-    width: 100%;
-    margin: {
-        top: 4px;
-    }
+    // display: flex;
+    outline: 1px solid;
+    display: flex;
+    // position: relative;
+    // top: 5rem;
+    padding: 3rem 1rem;
+    // justify-content: center;
 
-    a {
-        color: $dblue;
-    }
 }
 footer {
     outline: 1px solid;
@@ -68,20 +70,28 @@ footer {
 // .main-title {
 //     // h1
 // }
-// .sub-head {
-//     // h2
-// }
-// .paragraph {
-//     // p
-// }
+.sub-head {
+    text-align: center;
+    font-size: $xxl;
+    color: $dblue;
+    text-decoration: underline;
+}
+.paragraph {
+    font: {
+        size: $m;
+    }
+}
 // .buttons {
 //     // buttons
 // }
-// .site-links {
-//     // link
-// }
-// .contact-links {
-//     // a
+.site-links {
+    text-decoration: none;
+    color: $dblue;
+    font: {
+        weight: 700;
+    }
+}
+
 // }
 // .images {
 //     // img

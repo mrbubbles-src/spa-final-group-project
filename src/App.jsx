@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import Kontakt from "./pages/Kontakt/Kontakt";
 import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
+import "./pages/Home/home.scss";
 import Leistungen from "./pages/Leistungen/Leistungen";
 
 function App() {
