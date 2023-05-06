@@ -4,38 +4,62 @@
 @import "/src/scss/mixins";
 
 .main-container {
-    .welcome-circle-picture {
-        height: 150px;
-        width: 150px;
-        overflow: hidden;
-        border-radius: 50%;
-        border: 4px solid $dblue;
-        margin: {
-            top: 3.2rem;
-        }
-
-        .welcome-image {
-            width: 100%;
-            height: 100%;
-        }
-    }
-    .welcome {
+    .welcome-section {
+        outline: 1px solid red;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-
-        .text_container_top {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
+        flex: {
+            wrap: wrap;
+        }
+        @media (min-width: 992px) {
+            height: 32rem;
+            position: relative;
+            z-index: -1;
+            justify-content: initial;
+            align-items: initial;
+            flex: {
+                direction: row;
+            }
+            padding: {
+                left: 2rem;
+            }
+            margin: {
+                bottom: 8rem;
+            }
+            .paragraph {
+                width: 80%;
+            }
+        }
+        .welcome-circle-picture {
+            height: 150px;
+            width: 150px;
+            overflow: hidden;
+            border-radius: 50%;
+            border: 4px solid $dblue;
+            margin: {
+                top: 3.2rem;
+            }
             @media (min-width: 992px) {
-                flex-flow: row;
+                width: 30rem;
+                height: 30rem;
+                position: absolute;
+                top: -2.2rem;
+                right: 5rem;
+                z-index: -1;
+            }
 
-                .text_container {
-                    width: 80%;
-                }
+            .welcome-image {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .article_cards_section {
+        @media (min-width: 992px) {
+            display: flex;
+            margin: {
+                top: 2.5rem;
             }
         }
     }

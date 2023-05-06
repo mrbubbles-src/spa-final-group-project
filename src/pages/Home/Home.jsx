@@ -4,7 +4,7 @@ import AceHallo from "/src/assets/images/tiere/ace_smoking_square.jpg";
 const Home = () => {
     return (
         <>
-            <section className="welcome">
+            <section className="welcome-section">
                 <h2 className="sub-head">
                     Herzlich Willkommen in unserer Tierarztpraxis!
                 </h2>
