@@ -1,5 +1,3 @@
-import "../ArtikelCard/artikelCard.scss";
-
 const articleAbout = [
     {
         title: "Zahnmedizin",
@@ -33,10 +31,10 @@ const articleAbout = [
 
 const ArtikelListObj = (props) => {
     return (
-        <div className="article_cards">
-            <h3 className="article_title">{props.article.title}</h3>
+        <div className="cards">
+            <h3 className="cards_title">{props.article.title}</h3>
             <img
-                className="article_image"
+                className="cards_image"
                 src={props.article.image}
                 alt={props.article.alt}
             />
