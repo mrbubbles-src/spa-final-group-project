@@ -4,8 +4,8 @@ import ArtikelCard from "../../components/ArtikelCard/ArtikelCard";
 const Artikel = () => {
     return (
         <>
+            <h2 className="sub-head">Wissenswertes</h2>
             <section className="articles-section">
-                <h2 className="sub-head">Wissenswertes</h2>
                 <p className="article-paragraph paragraph">
                     Aktuelle Giftköderwarnungen für Hamburg finden Sie auf
                     <a
