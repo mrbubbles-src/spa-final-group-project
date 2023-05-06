@@ -28,19 +28,35 @@ body {
         top: 4px;
     }
     display: flex;
-    padding: 3rem 1rem;
-}
-footer {
-    outline: 1px solid;
+    flex: {
+        direction: column;
+    }
+    padding: 0 1rem;
 }
 .main-title {
     color: $dblue;
 }
-.sub-head {
+footer {
+    width: 100%;
+    background-color: $grey;
     text-align: center;
-    font-size: $xxl;
+    padding: $xs;
+    .site-links {
+        padding: {
+            right: $xs;
+            left: $xs;
+        }
+    }
+}
+.sub-head {
+    font: {
+        size: $xxl;
+    }
+    padding: {
+        top: 2rem;
+        bottom: 2rem;
+    }
     color: $dblue;
-    text-decoration: underline;
 }
 .paragraph {
     font: {
@@ -51,6 +67,6 @@ footer {
     text-decoration: none;
     color: $dblue;
     font: {
-        weight: 700;
+        family: MontserratBold;
     }
 }

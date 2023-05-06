@@ -2,33 +2,3 @@
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
-
-footer {
-    font-size: $m;
-    text-align: center;
-    background-color: $grey;
-    display: flex;
-    flex-direction: column;
-    padding: $xs;
-    width: 100%;
-
-    .footer_icons {
-        display: flex;
-        justify-content: center;
-        font-size: $xxl;
-        gap: 5rem;
-        margin-bottom: 10px;
-
-        .icons {
-            color: $dblue;
-        }
-    }
-    Link {
-        padding: 5px;
-        text-decoration: none;
-        color: $dblue;
-        font: {
-            weight: 700;
-        }
-    }
-}
