@@ -2,3 +2,9 @@
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
+
+.article-paragraph {
+    margin: {
+        bottom: 2.5rem;
+    }
+}
