@@ -1,8 +1,31 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const PraxisContext = React.createContext();
 
 const PraxisProvider = ({ children }) => {
+    const [slidePosition, setSlidePosition] = useState(0);
+    const [openModal, setOpenModal] = useState(false);
+
+    const handleOpenModal = (index) => {
+        setSlidePosition(index);
+        setOpenModal(true);
+    };
+
+    const handleCloseModal = () => {
+        setOpenModal(false);
+    };
+
+    const handlePrevSlide = (galerie) => {
+        slidePosition === 0
+            ? setSlidePosition(galerie.length - 1)
+            : setSlidePosition(slidePosition - 1);
+    };
+
+    const handleNextSlide = (galerie) => {
+        slidePosition + 1 === galerie.length
+            ? setSlidePosition(0)
+            : setSlidePosition(slidePosition + 1);
+    };
     const navToggle = (toggle) => {
         const navLinkContainer = document.querySelector(".nav-link-container");
         if (toggle) navLinkContainer.style.display = "block";
@@ -10,7 +33,18 @@ const PraxisProvider = ({ children }) => {
     };
 
     return (
-        <PraxisContext.Provider value={{ navToggle }}>
+        <PraxisContext.Provider
+            value={{
+                navToggle,
+                slidePosition,
+                setSlidePosition,
+                openModal,
+                handleOpenModal,
+                handleCloseModal,
+                handlePrevSlide,
+                handleNextSlide,
+            }}
+        >
             {children}
         </PraxisContext.Provider>
     );
