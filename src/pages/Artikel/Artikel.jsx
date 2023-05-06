@@ -1,4 +1,3 @@
-import CardContainer from "../../components/CardContainer/CardContainer";
 import ArtikelCard from "../../components/ArtikelCard/ArtikelCard";
 
 const Artikel = () => {
@@ -36,9 +35,7 @@ const Artikel = () => {
                 </p>
             </div>
 
-            <CardContainer>
-                <ArtikelCard />
-            </CardContainer>
+            <ArtikelCard />
         </>
     );
 };

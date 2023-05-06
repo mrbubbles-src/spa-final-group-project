@@ -1,5 +1,4 @@
 import ArtikelCard from "../../components/ArtikelCard/ArtikelCard";
-import CardContainer from "../../components/CardContainer/CardContainer";
 import AceHallo from "/src/assets/images/tiere/ace_smoking_square.jpg";
 
 const Home = () => {
@@ -41,9 +40,7 @@ const Home = () => {
             </section>
 
             <h2 className="sub-head">Wissenswertes</h2>
-            <CardContainer>
-                <ArtikelCard />
-            </CardContainer>
+            <ArtikelCard />
         </>
     );
 };
