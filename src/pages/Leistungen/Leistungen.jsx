@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { leistungen } from "../../assets/dataArrays/leistungen";
 import { links } from "../../assets/dataArrays/links";
+
 const Leistungen = () => {
     return (
         <>
@@ -44,7 +45,7 @@ const Leistungen = () => {
                             {links.map((link, index) => {
                                 return (
                                     <li
-                                        className="services-list-item"
+                                        className="services-links-list-item"
                                         key={index}
                                     >
                                         <Link
