@@ -35,61 +35,47 @@ const Herosection = () => {
                         Unsere Sprechzeiten
                     </h4>
                     <table className="herosection-times-table">
-                        <thead className="herosection-times-thead">
-                            <tr className="herosection-times-table-row">
-                                <th className="herosection-times-table-head">
-                                    Mo
-                                </th>
-                                <th className="herosection-times-table-head">
-                                    Di
-                                </th>
-                                <th className="herosection-times-table-head">
-                                    Mi
-                                </th>
-                                <th className="herosection-times-table-head">
-                                    Do
-                                </th>
-                                <th className="herosection-times-table-head">
-                                    Fr
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody className="herosection-times-tbody">
-                            <tr className="herosection-times-table-row">
-                                <td className="herosection-times-table-data">
-                                    10 - 12 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    10 - 12 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    10 - 12 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    10 - 12 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    10 - 12 Uhr
-                                </td>
-                            </tr>
-                            <tr className="herosection-times-table-row">
-                                <td className="herosection-times-table-data">
-                                    16 - 19 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    16 - 19 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    Geschlossen
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    16 - 19 Uhr
-                                </td>
-                                <td className="herosection-times-table-data">
-                                    16 - 19 Uhr
-                                </td>
-                            </tr>
-                        </tbody>
+                        <tr className="herosection-times-table-row">
+                            <th className="herosection-times-table-head">Mo</th>
+                            <th className="herosection-times-table-head">Di</th>
+                            <th className="herosection-times-table-head">Mi</th>
+                            <th className="herosection-times-table-head">Do</th>
+                            <th className="herosection-times-table-head">Fr</th>
+                        </tr>
+                        <tr className="herosection-times-table-row">
+                            <td className="herosection-times-table-data">
+                                10 - 12 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                10 - 12 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                10 - 12 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                10 - 12 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                10 - 12 Uhr
+                            </td>
+                        </tr>
+                        <tr className="herosection-times-table-row">
+                            <td className="herosection-times-table-data">
+                                16 - 19 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                16 - 19 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                Geschlossen
+                            </td>
+                            <td className="herosection-times-table-data">
+                                16 - 19 Uhr
+                            </td>
+                            <td className="herosection-times-table-data">
+                                16 - 19 Uhr
+                            </td>
+                        </tr>
                     </table>
                     <div className="herosection-gradient"></div>
                 </div>
