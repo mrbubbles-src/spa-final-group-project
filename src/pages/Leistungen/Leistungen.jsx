@@ -43,7 +43,10 @@ const Leistungen = () => {
                         <ul className="links-section-list-container">
                             {links.map((link, index) => {
                                 return (
-                                    <li key={index}>
+                                    <li
+                                        className="services-list-item"
+                                        key={index}
+                                    >
                                         <Link
                                             className="site-links"
                                             to={link.link}
