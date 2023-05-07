@@ -33,9 +33,8 @@ const Leistungen = () => {
                     })}
                 </section>
 
+                <h2 className="links-section-sub-head sub-head">Links</h2>
                 <section className="links-section-container">
-                    <h2 className="links-section-sub-head sub-head">Links</h2>
-
                     <div className="cards">
                         <p className="links-section-paragraph paragraph">
                             Hier haben wir einige informative Links in für Sie
