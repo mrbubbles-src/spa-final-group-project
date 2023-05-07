@@ -1,8 +1,7 @@
 const NotFound = () => {
     return (
         <div>
-            <p>SYSTEM - ERROR</p>
-            <p>Seite konnte nicht Gefunden werden!</p>
+            <p>404 not found</p>
         </div>
     );
 };
