@@ -67,6 +67,12 @@ footer {
         family: MontserratBold;
     }
 }
+.cards_title {
+    font: {
+        family: MontserratBold;
+    }
+    color: $dblue;
+}
 .cards {
     width: 100%;
     max-width: 55rem;
@@ -85,12 +91,6 @@ footer {
     gap: 1rem;
     object-fit: cover;
     transition: 0.5s;
-    .cards_title {
-        font: {
-            family: MontserratBold;
-        }
-        color: $dblue;
-    }
 
     .cards_image {
         width: 30.7rem;
