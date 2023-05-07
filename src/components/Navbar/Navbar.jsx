@@ -28,16 +28,6 @@ const Navbar = () => {
                 </li>
                 <li className="list-elements">
                     <NavLink
-                        to="artikel"
-                        className={({ isActive }) =>
-                            isActive ? "link active" : "link"
-                        }
-                    >
-                        Artikel
-                    </NavLink>
-                </li>
-                <li className="list-elements">
-                    <NavLink
                         to="galerie"
                         className={({ isActive }) =>
                             isActive ? "link active" : "link"
@@ -64,16 +54,6 @@ const Navbar = () => {
                         }
                     >
                         Kontakt & Anfahrt
-                    </NavLink>
-                </li>
-                <li className="list-elements">
-                    <NavLink
-                        to="links"
-                        className={({ isActive }) =>
-                            isActive ? "link active" : "link"
-                        }
-                    >
-                        Links
                     </NavLink>
                 </li>
             </ul>
