@@ -1,0 +1,11 @@
+@import "/src/scss/fonts";
+@import "/src/scss/sizes";
+@import "/src/scss/colors";
+@import "/src/scss/mixins";
+.contact_data {
+    background-color: lightblue;
+    border: 3px solid lightblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px black;
+    width: 100%;
+}
