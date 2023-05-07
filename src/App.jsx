@@ -4,8 +4,6 @@ import PraxisProvider from "./context/PraxisProvider";
 import "./components/Navbar/nav.scss";
 import "./components/Herosection/herosection.scss";
 import "./components/GalleryContainer/gallerycontainer.scss";
-import "./components/ArtikelCard/artikelCard.scss";
-import "./components/Footer/footer.scss";
 import "./components/Visitenkarte/visitenkarte.scss";
 import "./pages/Home/home.scss";
 import "./pages/Leistungen/leistungen.scss";
