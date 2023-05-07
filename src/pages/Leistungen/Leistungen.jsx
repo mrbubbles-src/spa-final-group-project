@@ -5,7 +5,7 @@ const Leistungen = () => {
                 <h2 className="service-section-sub-head sub-head">
                     Leistungen
                 </h2>
-                <div className="part1">
+                <div className="cards">
                     <h2 className="service-section-sub-head sub-head">
                         Diagnostik
                     </h2>
@@ -27,7 +27,8 @@ const Leistungen = () => {
                             Geriatrie-Check
                         </li>
                     </ul>
-
+                </div>
+                <div className="cards">
                     <h2 className="service-section-sub-head sub-head">
                         Physiotherapeutische Anwendungen
                     </h2>
@@ -44,45 +45,43 @@ const Leistungen = () => {
                             zur Gewichtsreduktion
                         </li>
                     </ul>
-                    <h2 className="service-section-sub-head sub-head">
-                        Züchterspezifische Analysen
-                    </h2>
-                    <ul className="service-section-list-container">
-                        <li className="service-section-listitem">
-                            DNA-Bestimmungen
-                        </li>
-                        <li className="service-section-listitem">
-                            Blutgruppen-Bestimmung
-                        </li>
-                        <li className="service-section-listitem">
-                            Reihenuntersuchen
-                        </li>
-                    </ul>
-
-                    <h2 className="service-section-sub-head sub-head">
-                        Weitere Leistungen
-                    </h2>
-                    <ul className="service-section-list-container">
-                        <li className="service-section-listitem">
-                            Elektronische Tierkennzeichnung/EU Heimtierpässe
-                        </li>
-                        <li className="service-section-listitem">
-                            Tierärztliche Vollapotheke
-                        </li>
-                        <li className="service-section-listitem">
-                            Große Auswahl an Diätfuttermitteln
-                        </li>
-                        <li className="service-section-listitem">
-                            Impferinnerung
-                        </li>
-                        <li className="service-section-listitem">
-                            EC-Kartenzahlung
-                        </li>
-                        <li className="service-section-listitem">
-                            Hunde- und Katzenfriseur
-                        </li>
-                    </ul>
                 </div>
+                <h2 className="service-section-sub-head sub-head">
+                    Züchterspezifische Analysen
+                </h2>
+                <ul className="service-section-list-container">
+                    <li className="service-section-listitem">
+                        DNA-Bestimmungen
+                    </li>
+                    <li className="service-section-listitem">
+                        Blutgruppen-Bestimmung
+                    </li>
+                    <li className="service-section-listitem">
+                        Reihenuntersuchen
+                    </li>
+                </ul>
+
+                <h2 className="service-section-sub-head sub-head">
+                    Weitere Leistungen
+                </h2>
+                <ul className="service-section-list-container">
+                    <li className="service-section-listitem">
+                        Elektronische Tierkennzeichnung/EU Heimtierpässe
+                    </li>
+                    <li className="service-section-listitem">
+                        Tierärztliche Vollapotheke
+                    </li>
+                    <li className="service-section-listitem">
+                        Große Auswahl an Diätfuttermitteln
+                    </li>
+                    <li className="service-section-listitem">Impferinnerung</li>
+                    <li className="service-section-listitem">
+                        EC-Kartenzahlung
+                    </li>
+                    <li className="service-section-listitem">
+                        Hunde- und Katzenfriseur
+                    </li>
+                </ul>
                 <div className="part2">
                     <h2 className="service-section-sub-head sub-head">
                         Beratung

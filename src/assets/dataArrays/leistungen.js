@@ -42,11 +42,4 @@ export const leistungen = [
         itemOne: "Injektions-, Inhalations- und Kurznarkosen",
         itemTwo: "Weichteil- und Knochenchirurgie",
     },
-    {
-        title: "Hausbesuche",
-        itemOne:
-            "RöntIn Notfällen,bei Bestandsbetreuungen oder Fällen einer Transportunfähigkeit des Patienten halten wir auch Hausbesuche ab. Eine weitergehende Untersuchung und Behandlung des Patienten ist jedoch häufig nur in der Praxis möglich.gendiagnostik",
-        itemTwo:
-            "Bitte haben Sie Verständnis, dass unser “normaler” Sprechstunden- und Operationsbetrieb erstrangig abgesichert werden muss.",
-    },
 ];
