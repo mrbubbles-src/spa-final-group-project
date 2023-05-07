@@ -6,6 +6,7 @@ import "./components/Herosection/herosection.scss";
 import "./components/GalleryContainer/gallerycontainer.scss";
 import "./components/Visitenkarte/visitenkarte.scss";
 import "./pages/Home/home.scss";
+import "./pages/Leistungen/leistungen.scss";
 import "./pages/Galerie/galerie.scss";
 import "./pages/Praxis/praxis.scss";
 import "./pages/Kontakt/kontakt.scss";
