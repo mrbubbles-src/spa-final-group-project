@@ -3,8 +3,25 @@
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
 
-.main-container {
-    .welcome-section {
+main {
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    max-width: 540px;
+
+    @media (min-width: 992px) {
+        padding: 5rem;
+        max-width: 100%;
+    }
+
+    // h2 {
+    //     font: {
+    //         size: $l;
+    //         text-align: center;
+    //     }
+    // }
+
+    .welcome {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -46,18 +63,83 @@
                 right: 5rem;
             }
 
-            .welcome-image {
-                width: 100%;
-                height: 100%;
+            .circle {
+                height: 400px;
+                width: 400px;
+                max-height: 40vw;
+                max-width: 40vw;
+                overflow: hidden;
+                border-radius: 50%;
+                border: 4px solid $dblue;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
     }
-    .article_cards_section {
+
+    // .warning {
+    //     background-color: #ffc0cba0;
+    //     margin: 2.5rem 0 2.5rem 0rem;
+    //     padding: $xxl;
+    //     border-radius: 20px;
+    //     align-self: left;
+    //     text-align: justify;
+    //     max-width: 800px;
+    //     h2,
+    //     p {
+    //         color: #ce1338;
+    //     }
+    // }
+
+    .information {
+        margin: 3rem 0;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
         @media (min-width: 992px) {
+            flex-flow: row;
+        }
+        .article_cards {
+            padding: $xl;
             display: flex;
-            margin: {
-                top: 2.5rem;
+            flex-flow: column;
+            box-shadow: 1px 1px 10px rgba($color: #000000, $alpha: 0.4);
+            align-items: center;
+            border: 1px solid $lgblue;
+            border-radius: $m;
+            gap: 1rem;
+            // a {
+            //     text-decoration: none;
+            //     color: $dblue;
+            //     font: {
+            //         weight: 700;
+            //     }
+            // }
+
+            @media (min-width: 992px) {
+                width: 33.33%;
+                height: 550px;
+            }
+            .image-container {
+                width: 90%;
+                height: 60%;
+                border-radius: 15px;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 15px;
+                }
             }
         }
     }
+}
+
+img {
+    width: 200px;
 }

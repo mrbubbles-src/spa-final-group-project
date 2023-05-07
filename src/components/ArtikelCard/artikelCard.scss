@@ -1,0 +1,22 @@
+@import "/src/scss/fonts";
+@import "/src/scss/sizes";
+@import "/src/scss/colors";
+@import "/src/scss/mixins";
+.article_cards {
+    padding: 2.3rem;
+    display: flex;
+    flex-flow: column;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    align-items: center;
+    border: 1px solid #8cb8d1;
+    border-radius: 1.6rem;
+    gap: 1rem;
+    // overflow: hidden;
+    // height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+    // -webkit-transform: scale(1.1);
+    // -ms-transform: scale(1.1);
+    // transform: scale(1.1);
+    // opacity: 0.9;
+}

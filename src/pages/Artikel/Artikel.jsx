@@ -1,12 +1,12 @@
-import { Link } from "react-router-dom";
+import CardContainer from "../../components/CardContainer/CardContainer";
 import ArtikelCard from "../../components/ArtikelCard/ArtikelCard";
 
 const Artikel = () => {
     return (
         <>
-            <h2 className="sub-head">Wissenswertes</h2>
-            <section className="articles-section">
-                <p className="article-paragraph paragraph">
+            <div className="text_container">
+                <h2 className="sub-head">Wissenswertes</h2>
+                <p className="paragraph">
                     Aktuelle Giftköderwarnungen für Hamburg finden Sie auf
                     <a
                         href="https://dogorama.app/de-de/giftkoeder/Hamburg/"
@@ -17,26 +17,28 @@ const Artikel = () => {
                         {" "}
                         DOGORAMA
                     </a>
-                    <br />
-                    <br />
+                </p>
+                <p className="paragraph">
                     Wichtige und nützliche Beiträge für Sie und Ihre Haustiere
                     finden Sie auf dieser Seite.
-                    <br />
-                    <br />
+                </p>
+                <p className="paragraph">
                     Wir sind stets engagiert neue, wichtige und spannende
                     Beiträge für Sie hier zusammenzutragen.
-                    <br />
-                    <br />
+                </p>
+                <p className="paragraph">
                     Für weitere spannende und nützliche Informationen schauen
                     Sie auch unter unserem Reiter
-                    <Link to="/links" className="site-links">
+                    <a href="" className="site-links">
                         Links
-                    </Link>
+                    </a>
                     .
                 </p>
-            </section>
+            </div>
 
-            <ArtikelCard />
+            <CardContainer>
+                <ArtikelCard />
+            </CardContainer>
         </>
     );
 };
