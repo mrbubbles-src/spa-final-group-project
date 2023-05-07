@@ -4,6 +4,17 @@
 @import "/src/scss/mixins";
 @import "@fortawesome/fontawesome-free/css/all.min.css";
 
+.service-section-container,
+.links-section-container {
+    @media (min-width: 992px) {
+        display: flex;
+        flex: {
+            wrap: wrap;
+        }
+        justify-content: center;
+    }
+}
+
 .sevices-list-container,
 .links-section-list-container {
     width: 90%;
