@@ -1,0 +1,16 @@
+export const praxis = [
+    { img: "/src/assets/images/praxis/praxis_außen1" },
+    { img: "/src/assets/images/praxis/praxis_außen3" },
+    { img: "/src/assets/images/praxis/praxis_raeume1.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume2.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume3.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume4.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume5.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume6.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume7.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume8.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume9.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume10.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume11.jpg" },
+    { img: "/src/assets/images/praxis/praxis_raeume12.jpg" },
+];

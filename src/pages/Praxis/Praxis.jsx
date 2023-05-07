@@ -1,7 +1,5 @@
 import VolkerGerlitzki from "../../assets/images/aerzte/volkerg.jpeg";
 import BirgitJoswig from "../../assets/images/aerzte/birgit-5d30482f.jpg";
-// import GalleryContainer from "../../components/GalleryContainer/GalleryContainer";
-// import { praxis } from "../../assets/imageArrays/galerieBilderPraxis";
 
 const Praxis = () => {
     return (
@@ -77,10 +75,7 @@ const Praxis = () => {
                     </p>
                 </article>
             </section>
-            {/* <section className="galerie-container">
-                <h3 className="galerie-section-title">Unsere Praxis</h3>
-                <GalleryContainer praxisGalerie={praxis} />
-            </section> */}
+
             {/* <section className="welcome">
                 <div className="text_container_top">
                     <div className="text_container praxis-text">
