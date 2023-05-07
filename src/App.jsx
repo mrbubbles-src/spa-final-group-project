@@ -9,7 +9,6 @@ import "./pages/Home/home.scss";
 import "./pages/Galerie/galerie.scss";
 import "./pages/Praxis/praxis.scss";
 import "./pages/Kontakt/kontakt.scss";
-import "./pages/Links/links.scss";
 import "./pages/Impressum/impressum.scss";
 import "./pages/DataProtection/dataProtection.scss";
 import "./pages/NotFound/notFound.scss";
