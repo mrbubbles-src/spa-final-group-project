@@ -9,9 +9,7 @@ const ReadMoreAll = ({ data }) => {
         <section className="hello">
             {data.map((str, index) => (
                 <p key={index} className="paragraph artikel-paragraph">
-                    <span>
-                        {readMore ? str : index === 0 ? str.substr(0, 100) : ""}
-                    </span>
+                    <span>{readMore ? str : str.substr(0, limit)}</span>;
                 </p>
             ))}
             <button className="toggleReadMore site-links" onClick={toggleBtn}>
