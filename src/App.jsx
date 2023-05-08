@@ -5,6 +5,7 @@ import "./components/Navbar/nav.scss";
 import "./components/Herosection/herosection.scss";
 import "./components/GalleryContainer/gallerycontainer.scss";
 import "./components/Visitenkarte/visitenkarte.scss";
+import "./components/ReadMore/readMore.scss";
 import "./pages/Home/home.scss";
 import "./pages/Galerie/galerie.scss";
 import "./pages/Praxis/praxis.scss";
