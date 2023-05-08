@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import NoImage from "/src/assets/images/various/no-image.png";
 // , praxisGalerie
-const GalleryContainer = ({ tierGalerie }) => {
+const GalleryContainer = ({ galerie, id }) => {
     const {
         slidePosition,
         openModal,
@@ -16,11 +16,12 @@ const GalleryContainer = ({ tierGalerie }) => {
         handleCloseModal,
         handlePrevSlide,
         handleNextSlide,
+        activeGallery,
     } = useContext(PraxisContext);
 
     return (
         <>
-            {openModal && (
+            {openModal && activeGallery === id && (
                 <div className="modal-container">
                     <FontAwesomeIcon
                         icon={faCircleXmark}
@@ -30,31 +31,31 @@ const GalleryContainer = ({ tierGalerie }) => {
                     <FontAwesomeIcon
                         icon={faAngleLeft}
                         className="prev-modal-image"
-                        onClick={() => handlePrevSlide(tierGalerie)}
+                        onClick={() => handlePrevSlide(galerie)}
                     />
                     <FontAwesomeIcon
                         icon={faAngleRight}
                         className="next-modal-image"
-                        onClick={() => handleNextSlide(tierGalerie)}
+                        onClick={() => handleNextSlide(galerie)}
                     />
                     <div className="fullscreen-image-container">
                         <img
                             className="fullscreen-image"
-                            src={tierGalerie[slidePosition].img}
-                            alt={tierGalerie[slidePosition].alt}
+                            src={galerie[slidePosition].img}
+                            alt={galerie[slidePosition].alt}
                         />
                     </div>
                 </div>
             )}
 
             <div className="gallery-image-container">
-                {tierGalerie &&
-                    tierGalerie.map((currImage, index) => {
+                {galerie &&
+                    galerie.map((currImage, index) => {
                         return (
                             <div
                                 className="single-gallery-image-container"
                                 key={index}
-                                onClick={() => handleOpenModal(index)}
+                                onClick={() => handleOpenModal(index, id)}
                             >
                                 <img
                                     className="single-gallery-image"
