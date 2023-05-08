@@ -24,11 +24,13 @@ import Kontakt from "./pages/Kontakt/Kontakt";
 import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
 import NotFound from "./pages/NotFound/NotFound";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 function App() {
     return (
         <PraxisProvider>
             <BrowserRouter>
+                <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<SharedLayout />}>
                         <Route index element={<Home />} />
