@@ -5,8 +5,8 @@ import { praxis } from "../../assets/imageArrays/galerieBilderPraxis";
 const Galerie = () => {
     return (
         <>
+            <h2 className="galerie-sub-title sub-head">Galerie</h2>
             <section className="galerie-container">
-                <h2 className="galerie-sub-title sub-head">Galerie</h2>
                 <h3 className="galerie-section-title">Unsere Patienten</h3>
                 <GalleryContainer galerie={tiere} galleryId="tiere" />
             </section>
