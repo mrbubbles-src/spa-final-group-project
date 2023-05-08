@@ -1,5 +1,7 @@
 import VolkerGerlitzki from "../../assets/images/aerzte/volkerg.jpeg";
 import BirgitJoswig from "../../assets/images/aerzte/birgit-5d30482f.jpg";
+import GalleryContainer from "../../components/GalleryContainer/GalleryContainer";
+import { praxis } from "../../assets/imageArrays/galerieBilderPraxis";
 
 const Praxis = () => {
     return (
@@ -72,6 +74,11 @@ const Praxis = () => {
                     </p>
                 </article>
             </section>
+
+            <GalleryContainer
+                galerie={praxis.slice(0, 3)}
+                galleryId="aboutPraxis"
+            />
         </>
     );
 };
