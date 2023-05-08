@@ -8,7 +8,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import NoImage from "/src/assets/images/various/no-image.png";
 // , praxisGalerie
-const GalleryContainer = ({ galerie, id }) => {
+const GalleryContainer = ({ galerie, galleryId }) => {
     const {
         slidePosition,
         openModal,
@@ -21,7 +21,7 @@ const GalleryContainer = ({ galerie, id }) => {
 
     return (
         <>
-            {openModal && activeGallery === id && (
+            {openModal && activeGallery === galleryId && (
                 <div className="modal-container">
                     <FontAwesomeIcon
                         icon={faCircleXmark}
@@ -55,7 +55,9 @@ const GalleryContainer = ({ galerie, id }) => {
                             <div
                                 className="single-gallery-image-container"
                                 key={index}
-                                onClick={() => handleOpenModal(index, id)}
+                                onClick={() =>
+                                    handleOpenModal(index, galleryId)
+                                }
                             >
                                 <img
                                     className="single-gallery-image"
