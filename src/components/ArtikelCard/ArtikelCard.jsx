@@ -1,3 +1,5 @@
+
+import ReadMore from "../ReadMore/ReadMore";
 import { articleAbout } from "../../assets/dataArrays/artikel";
 
 const ArtikelListObj = (props) => {
@@ -5,17 +7,15 @@ const ArtikelListObj = (props) => {
         <div className="cards">
             <h3 className="cards_title">{props.article.title}</h3>
             <img
-                className="cards_image"
+                className="cards_image artikel_image"
                 src={props.article.image}
                 alt={props.article.alt}
             />
-            <article>
-                {props.article.information.split("\n").map((str, index) => (
-                    <p key={index} className="paragraph artikel-paragraph">
-                        {str}
-                    </p>
-                ))}
-            </article>
+            {/* <p className="paragraph">
+                <ReadMore limit={150}>{props.article.information}</ReadMore>
+            </p> */}
+            <ReadMore data={props.article.information.split("\n")}></ReadMore>
+
         </div>
     );
 };

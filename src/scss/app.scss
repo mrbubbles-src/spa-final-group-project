@@ -89,6 +89,7 @@ footer {
     flex: {
         direction: column;
     }
+
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
     align-items: center;
     border: 1px solid #8cb8d1;
@@ -102,6 +103,10 @@ footer {
         border: {
             radius: 0.7rem;
         }
+    }
+    .artikel_image {
+        height: 230px;
+        object-fit: cover;
     }
     @media (min-width: 992px) {
         margin: 1rem;

@@ -2,10 +2,17 @@
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
-.contact_data {
-    background-color: lightblue;
-    border: 3px solid lightblue;
+p {
+    text-align: center;
+}
+.warning {
+    background-color: #ffc0cba0;
+    margin: 2.5rem 0;
+    padding: $xxl;
     border-radius: 20px;
-    box-shadow: 5px 5px 10px black;
-    width: 100%;
+    h3,
+    p {
+        color: #ce1338;
+        text-align: center;
+    }
 }
