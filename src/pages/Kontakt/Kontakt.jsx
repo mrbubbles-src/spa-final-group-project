@@ -1,6 +1,7 @@
 import Visitenkarte from "../../components/Visitenkarte/Visitenkarte";
 import "./kontakt.scss";
 import { contactObj } from "../../assets/dataArrays/kontakt";
+import KontaktForm from "../../components/KontaktForm/KontaktForm";
 const Kontakt = () => {
     return (
         <div className='kontakt_main'>
@@ -33,7 +34,12 @@ const Kontakt = () => {
                                 <p className='center_text'>{obj.text4}</p>
                             )}
                             {obj.contact_link && (
-                                <a href={obj.contact_link}>Kontaktlink</a>
+                                <a
+                                    className='site-links'
+                                    href={obj.contact_link}
+                                >
+                                    www.hvv.de
+                                </a>
                             )}
                             {obj.telephone_number && (
                                 <p>
@@ -60,41 +66,7 @@ const Kontakt = () => {
                         </div>
                     ))}
                 </div>
-
-                {/* FORM / USE EFFECT / CONSOLE.LOG */}
-
-                <form
-                    className='cards'
-                    action='https://formspree.io/xoqkgnqo'
-                    method='post'
-                    id='login_form'
-                >
-                    <legend>
-                        <h3 className='cards_title'>Kontaktieren Sie Uns</h3>
-                    </legend>
-                    <fieldset className='inputs_container'>
-                        <input
-                            id='firstname'
-                            type='text'
-                            placeholder='Name'
-                            required
-                        />
-                        <input
-                            id='email'
-                            type='email'
-                            placeholder='Email'
-                            required
-                        />
-                        <label></label>
-                        <textarea
-                            name='message'
-                            id='message'
-                            cols='33'
-                            rows='5'
-                        ></textarea>
-                    </fieldset>
-                    <button>Senden</button>
-                </form>
+                <KontaktForm />
             </section>
         </div>
     );

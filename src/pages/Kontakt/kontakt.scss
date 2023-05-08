@@ -3,6 +3,50 @@
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
 
-.center_text{
+.center_text {
     text-align: center;
+}
+
+form {
+    input {
+        height: 32px;
+        width: 240px;
+        padding: 0px 25px;
+        border-radius: 10px;
+        border: 1px solid $dblue;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212);
+        font-size: 20px;
+        transition: 0.2s;
+        &:hover {
+            background-color: $grey;
+        }
+        &:focus {
+            background-color: $grey;
+            outline: none;
+            width: 265px;
+        }
+    }
+    textarea {
+        resize: none;
+        height: 150px;
+        width: 90%;
+        border-radius: 10px;
+        border: 1px solid $dblue;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212);
+    }
+}
+
+#submit {
+    height: 40px;
+    width: 140px;
+    border-radius: 25px;
+    border: none;
+    color: $white;
+    font-size: 22px;
+    background: $dblue;
+    transition: 0.2s;
+    margin-top: 15px;
+    &:hover {
+        width: 200px;
+    }
 }
