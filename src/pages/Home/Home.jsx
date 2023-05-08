@@ -1,5 +1,5 @@
 import ArtikelCard from "../../components/ArtikelCard/ArtikelCard";
-import AceHallo from "/src/assets/images/tiere/ace_smoking_square.jpg";
+import AceHallo from "/src/assets/images/tiere/ace_smoking_no_BG.png";
 
 const Home = () => {
     return (

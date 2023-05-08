@@ -23,6 +23,11 @@ body {
     }
 }
 .main-container {
+    display: flex;
+    flex: {
+        flow: column;
+    }
+    align-items: center;
     width: 100%;
     margin: {
         top: 4px;
@@ -105,5 +110,10 @@ footer {
     }
     @media (min-width: 992px) {
         margin: 1rem;
+    }
+}
+.artikel-paragraph {
+    margin: {
+        bottom: 1rem;
     }
 }

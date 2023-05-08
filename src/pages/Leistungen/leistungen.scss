@@ -2,3 +2,47 @@
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.service-section-container,
+.links-section-container {
+    @media (min-width: 992px) {
+        display: flex;
+        flex: {
+            wrap: wrap;
+        }
+        justify-content: center;
+    }
+}
+
+.sevices-list-container,
+.links-section-list-container {
+    width: 90%;
+}
+.services-list-item,
+.services-links-list-item {
+    margin: {
+        bottom: 0.5rem;
+    }
+
+    &::before {
+        content: "\f1b0";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        display: inline-block;
+        width: 1em;
+        margin: {
+            left: -1em;
+        }
+        padding: {
+            right: 0.5rem;
+        }
+        color: $lgblue;
+        font: {
+            size: $xs;
+        }
+    }
+}
+.links-section-paragraph {
+    text-align: center;
+}

@@ -5,8 +5,10 @@ export const PraxisContext = React.createContext();
 const PraxisProvider = ({ children }) => {
     const [slidePosition, setSlidePosition] = useState(0);
     const [openModal, setOpenModal] = useState(false);
+    const [activeGallery, setActiveGallery] = useState("");
 
-    const handleOpenModal = (index) => {
+    const handleOpenModal = (index, id) => {
+        setActiveGallery(id);
         setSlidePosition(index);
         setOpenModal(true);
     };
@@ -43,6 +45,7 @@ const PraxisProvider = ({ children }) => {
                 handleCloseModal,
                 handlePrevSlide,
                 handleNextSlide,
+                activeGallery,
             }}
         >
             {children}

@@ -1,5 +1,8 @@
 import VolkerGerlitzki from "../../assets/images/aerzte/volkerg.jpeg";
 import BirgitJoswig from "../../assets/images/aerzte/birgit-5d30482f.jpg";
+import GalleryContainer from "../../components/GalleryContainer/GalleryContainer";
+import { praxis } from "../../assets/imageArrays/galerieBilderPraxis";
+import { Link } from "react-router-dom";
 
 const Praxis = () => {
     return (
@@ -71,6 +74,23 @@ const Praxis = () => {
                         ebenfalls um Ihren beachtlichen Tierbestand.
                     </p>
                 </article>
+            </section>
+            <section className="galerie-container galerie-praxis">
+                <h2 className="sub-head">Unsere Räumlichkeiten</h2>
+                <p>
+                    Hier sehen Sie einen kleinen Vorgeschmack auf unsere
+                    Räumlichkeiten.
+                </p>
+                <p>
+                    Für mehr Bilder, besuchen Sie doch unsere{" "}
+                    <Link to={"/galerie#praxis-gal"} className="site-links">
+                        Galerie
+                    </Link>
+                </p>
+                <GalleryContainer
+                    galerie={praxis.slice(0, 3)}
+                    galleryId="aboutPraxis"
+                />
             </section>
         </>
     );

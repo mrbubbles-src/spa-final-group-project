@@ -13,6 +13,7 @@ export const articleAbout = [
             "Für geschlechtsreife Rüden gibt es neben der chirurgischen, auch die medikamentöse Katsration. Durch ein subkutanes zu applizierendes(unter der Haut befindliches) Implantat, welches biokompatibel ist und somit nicht wieder entfernt werden muss, wird eine beispielweise sechminatige Kastration eingeleitet.\nDies ist ebenfalls eine Möglichkeit, um sich die entgültige , dauerhafte Entscheidung der chirurgische Kastration zu erleichtern, sozusagen eine Probekatration.",
     },
     {
+
         title: "Wichtige Impfung für Kaninchen",
         image: "/src/assets/images/tiere/Hase-Small.jpg",
         alt: "hase auf dickem ast",

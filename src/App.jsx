@@ -7,6 +7,7 @@ import "./components/GalleryContainer/gallerycontainer.scss";
 import "./components/Visitenkarte/visitenkarte.scss";
 import "./components/ReadMore/readMore.scss";
 import "./pages/Home/home.scss";
+import "./pages/Leistungen/leistungen.scss";
 import "./pages/Galerie/galerie.scss";
 import "./pages/Praxis/praxis.scss";
 import "./pages/Kontakt/kontakt.scss";
@@ -24,11 +25,13 @@ import Kontakt from "./pages/Kontakt/Kontakt";
 import Impressum from "./pages/Impressum/Impressum";
 import DataProtection from "./pages/DataProtection/DataProtection";
 import NotFound from "./pages/NotFound/NotFound";
+import ScrollToTop from "./helpers/ScrollToTop";
 
 function App() {
     return (
         <PraxisProvider>
             <BrowserRouter>
+                <ScrollToTop />
                 <Routes>
                     <Route path="/" element={<SharedLayout />}>
                         <Route index element={<Home />} />
