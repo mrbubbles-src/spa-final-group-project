@@ -1,3 +1,4 @@
+import ReadMore from "../ReadMore/ReadMore";
 const articleAbout = [
     {
         title: "Zahnmedizin",
@@ -38,7 +39,9 @@ const ArtikelListObj = (props) => {
                 src={props.article.image}
                 alt={props.article.alt}
             />
-            <p className="paragraph">{props.article.information}</p>
+            <p className="paragraph">
+                <ReadMore limit={500}>{props.article.information}</ReadMore>
+            </p>
         </div>
     );
 };

@@ -78,6 +78,8 @@ footer {
     flex: {
         direction: column;
     }
+    justify-content: flex-start;
+    // align-items: flex-start;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
     align-items: center;
     border: 1px solid #8cb8d1;
