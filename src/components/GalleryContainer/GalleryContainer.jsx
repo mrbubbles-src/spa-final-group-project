@@ -3,11 +3,11 @@ import { PraxisContext } from "../../context/PraxisProvider";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faCircleXmark,
-    faAngleLeft,
-    faAngleRight,
+    faCircleChevronRight,
+    faCircleChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import NoImage from "/src/assets/images/various/no-image.png";
-// , praxisGalerie
+<FontAwesomeIcon icon={faCircleChevronRight} />;
 const GalleryContainer = ({ galerie, galleryId }) => {
     const {
         slidePosition,
@@ -29,20 +29,28 @@ const GalleryContainer = ({ galerie, galleryId }) => {
                         onClick={handleCloseModal}
                     />
                     <FontAwesomeIcon
-                        icon={faAngleLeft}
+                        icon={faCircleChevronLeft}
                         className="prev-modal-image"
                         onClick={() => handlePrevSlide(galerie)}
                     />
                     <FontAwesomeIcon
-                        icon={faAngleRight}
+                        icon={faCircleChevronRight}
                         className="next-modal-image"
                         onClick={() => handleNextSlide(galerie)}
                     />
                     <div className="fullscreen-image-container">
                         <img
                             className="fullscreen-image"
-                            src={galerie[slidePosition].img}
-                            alt={galerie[slidePosition].alt}
+                            src={
+                                galerie[slidePosition].img
+                                    ? galerie[slidePosition].img
+                                    : NoImage
+                            }
+                            alt={
+                                galerie[slidePosition].alt
+                                    ? galerie[slidePosition].alt
+                                    : "Kein Bild gefunden"
+                            }
                         />
                     </div>
                 </div>
