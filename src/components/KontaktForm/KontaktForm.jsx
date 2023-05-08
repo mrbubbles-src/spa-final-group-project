@@ -1,4 +1,4 @@
-import { useState, useRef, useEffect } from "react";
+import { useState } from "react";
 
 const KontaktForm = () => {
     const [formState, setFormState] = useState({
@@ -6,12 +6,6 @@ const KontaktForm = () => {
         email: "",
         message: "",
     });
-
-    const formRef = useRef(null);
-
-    useEffect(() => {
-        formRef.current.focus();
-    }, []);
 
     const handleChange = (event) => {
         const target = event.target;
@@ -43,45 +37,44 @@ const KontaktForm = () => {
     };
 
     return (
-        <form className='cards' onSubmit={handleSubmit}>
-            <h2 className='cards_title'>Kontaktieren Sie uns!</h2>
-            <label className='cards_title' htmlFor='name'>
+        <form className="cards" onSubmit={handleSubmit}>
+            <h2 className="cards_title">Kontaktieren Sie uns!</h2>
+            <label className="cards_title" htmlFor="name">
                 Name:{" "}
             </label>{" "}
             <input
-                ref={formRef}
-                type='text'
-                name='name'
-                id='name'
+                type="text"
+                name="name"
+                id="name"
                 value={formState.name}
                 onChange={handleChange}
                 required
-                placeholder='Name, Vorname'
+                placeholder="Name, Vorname"
             />
-            <label className='cards_title' htmlFor='email'>
+            <label className="cards_title" htmlFor="email">
                 Email:{" "}
             </label>
             <input
-                type='email'
-                name='email'
-                id='email'
+                type="email"
+                name="email"
+                id="email"
                 value={formState.email}
                 onChange={handleChange}
                 required
-                placeholder='E-Mail-Adresse'
+                placeholder="E-Mail-Adresse"
             />
-            <label className='cards_title' htmlFor='message'>
+            <label className="cards_title" htmlFor="message">
                 {" "}
                 Ihre Nachricht:{" "}
             </label>
             <textarea
-                name='message'
-                id='message'
+                name="message"
+                id="message"
                 onChange={handleChange}
                 value={formState.message}
                 required
             ></textarea>
-            <input id='submit' type='submit' value='Senden' />
+            <input id="submit" type="submit" value="Senden" />
         </form>
     );
 };
