@@ -55,6 +55,7 @@
         }
     }
     .article_cards_section {
+        align-items: flex-start;
         @media (min-width: 992px) {
             display: flex;
             margin: {
