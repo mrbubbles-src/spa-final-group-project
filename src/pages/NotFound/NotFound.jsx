@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import AceHallo from "/src/assets/images/tiere/ace_smoking_no_BG.png";
+import AceHallo from "/public/images/tiere/ace_smoking_no_BG.png";
 const NotFound = () => {
     return (
         <div className="center">

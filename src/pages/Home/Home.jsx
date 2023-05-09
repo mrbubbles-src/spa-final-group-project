@@ -1,16 +1,16 @@
 import ArtikelCard from "../../components/ArtikelCard/ArtikelCard";
-import AceHallo from "/src/assets/images/tiere/ace_smoking_no_BG.png";
+import AceHallo from "/public/images/tiere/ace_smoking_no_BG.png";
 
 const Home = () => {
     return (
         <>
-            <section className='welcome-section'>
-                <div className='text_container_top'>
-                    <div className='text_container'>
-                        <h2 className='sub-head'>
+            <section className="welcome-section">
+                <div className="text_container_top">
+                    <div className="text_container">
+                        <h2 className="sub-head">
                             Herzlich Willkommen in unserer Tierarztpraxis!
                         </h2>
-                        <p className='paragraph'>
+                        <p className="paragraph">
                             In unserer Praxis gehören Empathie und
                             überdurchschnittliches medizinisches Niveau
                             zusammen. Unser Hauptanliegen ist das Wohl des
@@ -33,13 +33,13 @@ const Home = () => {
                             Ihr Dr. Volker Gerlitzki und Team.
                         </p>
                     </div>
-                    <div className='welcome-circle-picture'>
-                        <img className='welcome-image' src={AceHallo} />
+                    <div className="welcome-circle-picture">
+                        <img className="welcome-image" src={AceHallo} />
                     </div>
                 </div>
             </section>
 
-            <h2 className='sub-head'>Wissenswertes</h2>
+            <h2 className="sub-head">Wissenswertes</h2>
             <ArtikelCard />
         </>
     );

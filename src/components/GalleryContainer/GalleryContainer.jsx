@@ -6,7 +6,7 @@ import {
     faCircleChevronRight,
     faCircleChevronLeft,
 } from "@fortawesome/free-solid-svg-icons";
-import NoImage from "/src/assets/images/various/no-image.png";
+import NoImage from "/public/images/various/no-image.png";
 <FontAwesomeIcon icon={faCircleChevronRight} />;
 const GalleryContainer = ({ galerie, galleryId }) => {
     const {

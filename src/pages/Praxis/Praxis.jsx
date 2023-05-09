@@ -1,5 +1,5 @@
-import VolkerGerlitzki from "../../assets/images/aerzte/volkerg.jpeg";
-import BirgitJoswig from "../../assets/images/aerzte/birgit-5d30482f.jpg";
+import VolkerGerlitzki from "/public/images/aerzte/volkerg.jpeg";
+import BirgitJoswig from "/public/images/aerzte/birgit-5d30482f.jpg";
 import GalleryContainer from "../../components/GalleryContainer/GalleryContainer";
 import { praxis } from "../../assets/imageArrays/galerieBilderPraxis";
 import { Link } from "react-router-dom";
