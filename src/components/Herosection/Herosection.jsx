@@ -22,7 +22,7 @@ const Herosection = () => {
                     </h1>
                     <h2 className="herosection-header-animals sub-head">
                         Kleintiere &middot; Heimtiere &middot; Reptilien
-                        &middot; Amphibien &middot; Vögel
+                        &middot; Vögel
                     </h2>
                     <h3 className="herosection-header-adress">
                         Wentorfer Straße 15 &middot; 21029 Hamburg &middot;

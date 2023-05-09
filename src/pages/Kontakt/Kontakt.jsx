@@ -4,7 +4,7 @@ import { contactObj } from "../../assets/dataArrays/kontakt";
 import KontaktForm from "../../components/KontaktForm/KontaktForm";
 const Kontakt = () => {
     return (
-        <div className='kontakt_main'>
+        <>
             <h2 className='sub-head'>Kontakt</h2>
             <iframe
                 src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2373.943016420752!2d10.215945112380163!3d53.48734796404859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1f2627d000499%3A0x74b29aef89ee5ba6!2sWentorfer%20Str.%2015%2C%2021029%20Hamburg!5e0!3m2!1sde!2sde!4v1683115069794!5m2!1sde!2sde'
@@ -14,11 +14,11 @@ const Kontakt = () => {
                 allowfullscreen=''
                 loading='lazy'
             ></iframe>
-            <section>
+            <section className="card_section">
                 <Visitenkarte />
                 <div className='card-list'>
                     {contactObj.map((obj, index) => (
-                        <div className='cards' key={index}>
+                        <div className='cards contact_cards' key={index}>
                             <h3 className='cards_title'>{obj.title}</h3>
                             <p className='center_text'>{obj.text}</p>
                             {obj.subtitle && (
@@ -68,7 +68,7 @@ const Kontakt = () => {
                 </div>
                 <KontaktForm />
             </section>
-        </div>
+        </>
     );
 };
 

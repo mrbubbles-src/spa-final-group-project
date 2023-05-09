@@ -2,10 +2,9 @@
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
-// .cards {
-//     width: 100%;
-// }
+
 .galerie-container {
+    padding: 10px;
     margin: {
         bottom: 2.5rem;
     }
@@ -28,7 +27,6 @@
         }
     }
     .gallery-image-container {
-        // outline: 1px solid red;
 
         display: flex;
         flex: {
@@ -37,7 +35,6 @@
         gap: 10px;
         align-items: center;
         justify-content: center;
-        // margin: 0 auto;
 
         .single-gallery-image-container {
             width: 35rem;

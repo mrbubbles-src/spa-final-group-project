@@ -16,12 +16,6 @@ export const leistungen = [
             "zur Motivation der Bewegung bei älteren Tieren oder zur Gewichtsreduktion",
     },
     {
-        title: "Züchterspezifische Analysen",
-        itemOne: "DNA-Bestimmungen",
-        itemTwo: "Blutgruppen-Bestimmung",
-        itemThree: "Reihenuntersuchen",
-    },
-    {
         title: "Weitere Leistungen",
         itemOne: "Augenheilkunde",
         itemTwo: "Zahnheilkunde",
@@ -31,6 +25,12 @@ export const leistungen = [
         itemSix: "Impferinnerung",
         itemSeven: "EC-Kartenzahlung",
         itemEight: "Hunde- und Katzenfriseur",
+    },
+    {
+        title: "Züchterspezifische Analysen",
+        itemOne: "DNA-Bestimmungen",
+        itemTwo: "Blutgruppen-Bestimmung",
+        itemThree: "Reihenuntersuchen",
     },
     {
         title: "Beratung",
