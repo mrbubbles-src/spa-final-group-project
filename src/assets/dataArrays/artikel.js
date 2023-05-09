@@ -1,7 +1,7 @@
 export const articleAbout = [
     {
         title: "Zahnmedizin",
-        image: "/src/assets/images/tiere/Katze-offener-Mund-SMALL.jpg",
+        image: "../images/tiere/Katze-offener-Mund-SMALL.jpg",
         alt: "katze mit offenem mund",
         information: `Zahnschmerzen können uns Tiere leider nicht mitteilen. Allerdings können regelmäßige Prophilaxe, Plaquekontrollen als Vorsorgemaßnahme, Zahnerkrankungen und dadurch bedingte Folgeschäden weitesgehend vorgebeugt und zusätzlicher Stress für das Tier und Kosten minimiert werden.\nAblagerungen an den Zähnen, unangenehmer Mundgeruch, stärkerer Speichelfluss als normal, schlechtere Kautätigkeit, sie Zahnfleischentzündungen, sind eindeutige Anzeichen für Zahnprobleme. Darauf folgen Parandontose, Karies und eventuell auch entzündungen, die bei Vernachlässigung dem gesamten Organismus schdaen können und Leber, Herz und Niere angreifen können.\nEntzündungen können als Folge von Zahnbelägen und Zahnstein (Beläge aus Bakterien, die durch Einlagerung von Mineralstoffen steinhart werden) entstehen und zusätzlich auch zu zahnverlust führen, bei unregelmäßger Kontrolle und Behandlung.\nNeben regelmäßgen tierärztlichen Kontrollen, können Sie ihrem Tier durch tägliche, gründliche Reinigung der Zähne mit speziellen Zahnbürsten (im Zoohandel/Tierbedarf), Zahnpasta oder auch Zahnreinigungsstreifen und entspechendem Trockenfutter, zu gesunden Zähnen verhelfen.`,
     },
@@ -13,7 +13,6 @@ export const articleAbout = [
             "Für geschlechtsreife Rüden gibt es neben der chirurgischen, auch die medikamentöse Katsration. Durch ein subkutanes zu applizierendes(unter der Haut befindliches) Implantat, welches biokompatibel ist und somit nicht wieder entfernt werden muss, wird eine beispielweise sechminatige Kastration eingeleitet.\nDies ist ebenfalls eine Möglichkeit, um sich die entgültige , dauerhafte Entscheidung der chirurgische Kastration zu erleichtern, sozusagen eine Probekatration.",
     },
     {
-
         title: "Impfung für Kaninchen",
         image: "/src/assets/images/tiere/Hase-Small.jpg",
         alt: "hase auf dickem ast",
