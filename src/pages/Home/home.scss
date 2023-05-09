@@ -50,13 +50,19 @@
             .welcome-circle-picture {
                 height: 150px;
                 width: 150px;
-                overflow: hidden;
-                border-radius: 50%;
-                background-color: $dblue;
+                // overflow: hidden;
+                // border-radius: 50%;
+                // background-color: $dblue;
                 margin: {
                     top: 3.2rem;
                 }
+                padding: {
+                    left: 30px;
+                }
                 @media (min-width: 992px) {
+                    padding: {
+                        left: 60px;
+                    }
                     width: 30rem;
                     height: 30rem;
                 }
