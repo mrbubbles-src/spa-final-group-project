@@ -1,34 +1,24 @@
 import { Link } from "react-router-dom";
-import AceHallo from "/src/assets/images/tiere/ace_smoking_no_BG.png";
+import AceHallo from "/images/tiere/ace_smoking_no_BG.png";
 const NotFound = () => {
     return (
-        <div className="center">
-            <div className="error">
-                <div className="number">4</div>
-                <div className="illustration">
-                    <div className="circle">
-                        <div className="not-found-image-container">
-                            <img
-                                className="not-found-image"
-                                src={AceHallo}
-                                alt=""
-                            />
-                        </div>
-                    </div>
+        <>
+            <div className="four-oh-four-container">
+                <p className="ze-viers">4</p>
+                <div className="not-found-image-container">
+                    <img className="not-found-image" src={AceHallo} alt="" />
                 </div>
-
-                <div className="number">4</div>
+                <p className="ze-viers ze-second-vier">4</p>
             </div>
-
             <div className="text">
                 <h2 className="sub-head">
-                    Seite konnte nicht Gefunden werden!
+                    Die Seite konnte nicht gefunden werden!
                 </h2>
             </div>
-            <Link to="/" className="button">
+            <Link to="/" className="site-links">
                 Zurück zur Startseite
             </Link>
-        </div>
+        </>
     );
 };
 

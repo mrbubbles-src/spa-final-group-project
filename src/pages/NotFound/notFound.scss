@@ -3,72 +3,25 @@
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
 
-.center {
-    height: 100%;
+.four-oh-four-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.error {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-}
-
-.number {
-    font-weight: 900;
-    font-size: 15rem;
-    line-height: 1;
-    color: $dblue;
-}
-
-.illustration {
-    position: relative;
-    width: 12.2rem;
-    margin: 0 2.1rem;
-}
-.circle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 12.2rem;
-    height: 11.4rem;
-    border-radius: 50%;
-    background-color: $dblue;
-}
-.not-found-image-container {
-    width: 12.2rem;
-    height: 11.4rem;
-    position: relative;
-    border-radius: 50%;
-    .not-found-image {
-        position: absolute;
-        right: -16px;
-        bottom: 0px;
-        width: 150px;
-        height: 150px;
-        border-radius: 0 0 50% 50%;
+    align-items: flex-end;
+    .ze-viers {
+        color: $dblue;
+        font: {
+            family: MontserratSemiBold;
+            size: 20rem;
+        }
     }
-}
-
-.text {
-    margin-top: 5rem;
-    font-weight: 300;
-    color: $dblue;
-}
-
-.button {
-    margin-top: 4rem;
-    padding: 1.2rem 3rem;
-    color: $white;
-    background-color: $dblue;
-
-    &:hover {
-        color: black;
-        font-weight: bolder;
-        background-color: $lgblue;
+    .ze-second-vier {
+        margin: 0 $m;
+    }
+    .not-found-image-container {
+        width: 25rem;
+        height: 30rem;
+        .not-found-image {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
