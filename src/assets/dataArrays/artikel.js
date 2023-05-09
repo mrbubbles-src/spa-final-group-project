@@ -14,7 +14,7 @@ export const articleAbout = [
     },
     {
 
-        title: "Wichtige Impfung für Kaninchen",
+        title: "Impfung für Kaninchen",
         image: "/src/assets/images/tiere/Hase-Small.jpg",
         alt: "hase auf dickem ast",
         information:

@@ -3,6 +3,10 @@
 @import "/src/scss/colors";
 @import "/src/scss/mixins";
 
+iframe {
+    margin-bottom: 20px;
+}
+
 .center_text {
     text-align: center;
 }
@@ -48,5 +52,13 @@ form {
     margin-top: 15px;
     &:hover {
         width: 200px;
+    }
+}
+
+.card_section {
+    @media (min-width: 992px) {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 }

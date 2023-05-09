@@ -3,7 +3,7 @@ export const contactObj = [
         title: "Mit dem Auto",
         text: "Gegenüber der Praxis befinden sich Parkplätze.",
         subtitle: "Behindertengerechter Zugang",
-        text2: "Der Zugang für Rollstuhlfahrer befindet sich Wentorfer Strasse 15a.",
+        text2: "Der Zugang für Rollstuhlfahrer befindet sich Wentorfer Straße 15a.",
         text3: "Dieser ist durch den kleinen Weg rechts neben dem Haus zu erreichen.",
     },
     {

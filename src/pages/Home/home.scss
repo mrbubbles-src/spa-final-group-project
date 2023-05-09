@@ -13,9 +13,9 @@
         }
         @media (min-width: 992px) {
             height: 32rem;
-            position: relative;
             justify-content: initial;
             align-items: initial;
+
             flex: {
                 direction: row;
             }
@@ -26,37 +26,54 @@
                 bottom: 8rem;
             }
             .paragraph {
-                width: 80%;
+                text-align: left;
             }
         }
-        .welcome-circle-picture {
-            height: 150px;
-            width: 150px;
-            overflow: hidden;
-            border-radius: 50%;
-            // border: 4px solid $dblue;
-            background-color: $dblue;
-            margin: {
-                top: 3.2rem;
-            }
+        .sub-head {
             @media (min-width: 992px) {
-                width: 30rem;
-                height: 30rem;
-                position: absolute;
-                top: -2.2rem;
-                right: 5rem;
+                text-align: left;
             }
+        }
 
-            .welcome-image {
-                width: 100%;
-                height: 100%;
+        .text_container_top {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            @media (min-width: 992px) {
+                flex-flow: row;
+
+                .text_container {
+                    width: 80%;
+                }
+            }
+            .welcome-circle-picture {
+                height: 150px;
+                width: 150px;
+                overflow: hidden;
+                border-radius: 50%;
+                background-color: $dblue;
+                margin: {
+                    top: 3.2rem;
+                }
+                @media (min-width: 992px) {
+                    width: 30rem;
+                    height: 30rem;
+                }
+
+                .welcome-image {
+                    width: 100%;
+                    height: 100%;
+                }
             }
         }
     }
     .article_cards_section {
         align-items: flex-start;
+        justify-content: center;
         @media (min-width: 992px) {
             display: flex;
+            flex-wrap: wrap;
             margin: {
                 top: 2.5rem;
             }
