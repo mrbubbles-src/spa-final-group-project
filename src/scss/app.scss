@@ -72,6 +72,7 @@ footer {
     @media (min-width: 992px) {
         &:hover {
             color: $lgblue;
+            text-decoration: underline solid 0.3rem;
         }
     }
 }
