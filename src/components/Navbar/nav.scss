@@ -25,7 +25,6 @@
         position: relative;
         top: 0.1rem;
         display: none;
-        
 
         .list-elements {
             height: $xxl;
@@ -42,16 +41,18 @@
         }
         .link {
             color: $white;
-            &:hover {
-                color: black;
-                font: {
-                    weight: bold;
+            @media (min-width: 992px) {
+                &:hover {
+                    color: $lgblue;
+                    font: {
+                        family: MontserratBold;
+                    }
                 }
             }
         }
         .active {
             font: {
-                weight: bold;
+                family: MontserratBold;
             }
             text-decoration: underline solid 0.3rem;
         }
