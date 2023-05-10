@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import ReadMore from "../ReadMore/ReadMore";
+import { useState } from "react";
+
 const ReadMoreAll = ({ data }) => {
     const [readMore, setReadMore] = useState(false);
     const toggleBtn = () => {
