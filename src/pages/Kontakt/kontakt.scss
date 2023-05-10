@@ -61,3 +61,14 @@ form {
         width: 100%;
     }
 }
+#message {
+    font: {
+        family: MontserratRegular, sans-serif;
+    }
+    padding: 2rem;
+    &::placeholder {
+        font: {
+            family: MontserratRegular, sans-serif;
+        }
+    }
+}

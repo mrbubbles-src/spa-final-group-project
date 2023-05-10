@@ -72,6 +72,7 @@ const KontaktForm = () => {
                 id="message"
                 onChange={handleChange}
                 value={formState.message}
+                placeholder="Ihre Nachricht an uns"
                 required
             ></textarea>
             <input id="submit" type="submit" value="Senden" />
