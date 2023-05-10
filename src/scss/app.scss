@@ -1,7 +1,6 @@
 @import "./fonts";
 @import "./sizes";
 @import "./colors";
-@import "./mixins";
 
 :root {
     font: {
@@ -62,11 +61,6 @@ footer {
         bottom: 2rem;
     }
     color: $dblue;
-}
-.paragraph {
-    font: {
-        // size: $m;
-    }
 }
 .site-links {
     text-decoration: none;
