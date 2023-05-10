@@ -13,7 +13,7 @@ const ReadMoreAll = ({ data }) => {
                 </p>
             ))}
             <button className="toggleReadMore site-links" onClick={toggleBtn}>
-                {readMore ? "read less..." : "...read more"}{" "}
+                {readMore ? "weniger lesen..." : "...mehr lesen"}{" "}
             </button>
         </section>
     );
