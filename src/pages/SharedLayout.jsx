@@ -8,7 +8,6 @@ const SharedLayout = () => {
         <>
             <Navbar />
             <Herosection />
-
             <main className="main-container">
                 <Outlet />
             </main>
