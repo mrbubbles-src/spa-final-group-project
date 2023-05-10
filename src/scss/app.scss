@@ -68,6 +68,12 @@ footer {
     font: {
         family: MontserratBold;
     }
+    cursor: pointer;
+    @media (min-width: 992px) {
+        &:hover {
+            color: $lgblue;
+        }
+    }
 }
 .cards_title {
     font: {
