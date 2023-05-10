@@ -5,9 +5,12 @@
 
 .galerie-container {
     padding: 10px;
-    margin: {
+    max-width: 100%;
+    padding: {
         left: 1rem;
         right: 1rem;
+    }
+    margin: {
         bottom: 2.5rem;
     }
     display: flex;
@@ -29,7 +32,6 @@
         }
     }
     .gallery-image-container {
-
         display: flex;
         flex: {
             wrap: wrap;
@@ -39,8 +41,9 @@
         justify-content: center;
 
         .single-gallery-image-container {
-            width: 35rem;
-            height: 35rem;
+            width: 32rem;
+            height: 32rem;
+
             margin: 1rem;
             .single-gallery-image {
                 width: 100%;
