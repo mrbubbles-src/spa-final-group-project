@@ -56,7 +56,6 @@ const Praxis = () => {
                         src={BirgitJoswig}
                         alt="Tierärztin Dr. Birgit Joswig"
                     />
-                    {/* <br /> */}
                     <h3 className="cards_title">
                         Tierärztin Dr. Birgit Joswig
                     </h3>
