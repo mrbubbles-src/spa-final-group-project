@@ -1,7 +1,6 @@
 @import "/src/scss/fonts";
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
-@import "/src/scss/mixins";
 
 .main-container {
     .welcome-section {
@@ -50,9 +49,6 @@
             .welcome-circle-picture {
                 height: 150px;
                 width: 150px;
-                // overflow: hidden;
-                // border-radius: 50%;
-                // background-color: $dblue;
                 margin: {
                     top: 3.2rem;
                 }

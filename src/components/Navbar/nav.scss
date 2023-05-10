@@ -1,7 +1,7 @@
 @import "/src/scss/fonts";
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
-@import "/src/scss/mixins";
+
 .navigation {
     z-index: 2;
     width: 100%;
@@ -20,12 +20,10 @@
         5px 5px 15px 5px rgba(0, 0, 0, 0);
     box-shadow: 0px 10px 18px -12px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
     .nav-link-container {
-        // border: 1px solid;
         background-color: $dblue;
         position: relative;
         top: 0.1rem;
         display: none;
-        
 
         .list-elements {
             height: $xxl;
@@ -42,16 +40,18 @@
         }
         .link {
             color: $white;
-            &:hover {
-                color: black;
-                font: {
-                    weight: bold;
+            @media (min-width: 992px) {
+                &:hover {
+                    color: $lgblue;
+                    font: {
+                        family: MontserratBold;
+                    }
                 }
             }
         }
         .active {
             font: {
-                weight: bold;
+                family: MontserratBold;
             }
             text-decoration: underline solid 0.3rem;
         }

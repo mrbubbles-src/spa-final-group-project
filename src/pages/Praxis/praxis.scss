@@ -1,10 +1,8 @@
 @import "/src/scss/fonts";
 @import "/src/scss/sizes";
 @import "/src/scss/colors";
-@import "/src/scss/mixins";
 
 .praxis-section-container {
-    
     @media (min-width: 992px) {
         display: flex;
         justify-content: center;

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import ReadMore from "../ReadMore/ReadMore";
+import { useState } from "react";
+
 const ReadMoreAll = ({ data }) => {
     const [readMore, setReadMore] = useState(false);
     const toggleBtn = () => {
@@ -13,7 +13,7 @@ const ReadMoreAll = ({ data }) => {
                 </p>
             ))}
             <button className="toggleReadMore site-links" onClick={toggleBtn}>
-                {readMore ? "read less..." : "...read more"}{" "}
+                {readMore ? "weniger lesen..." : "...mehr lesen"}{" "}
             </button>
         </section>
     );

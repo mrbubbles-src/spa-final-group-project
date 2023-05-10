@@ -1,4 +1,3 @@
-
 import ReadMore from "../ReadMore/ReadMore";
 import { articleAbout } from "../../assets/dataArrays/artikel";
 
@@ -11,11 +10,7 @@ const ArtikelListObj = (props) => {
                 src={props.article.image}
                 alt={props.article.alt}
             />
-            {/* <p className="paragraph">
-                <ReadMore limit={150}>{props.article.information}</ReadMore>
-            </p> */}
             <ReadMore data={props.article.information.split("\n")}></ReadMore>
-
         </div>
     );
 };
