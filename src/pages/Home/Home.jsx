@@ -8,7 +8,7 @@ const Home = () => {
                 <div className="text_container_top">
                     <div className="text_container">
                         <h2 className="sub-head">
-                            Herzlich Willkommen in unserer Tierarztpraxis!
+                            Herzlich willkommen in unserer Tierarztpraxis!
                         </h2>
                         <p className="paragraph">
                             In unserer Praxis gehören Empathie und
@@ -27,7 +27,7 @@ const Home = () => {
                             erfolgreich zur Genesung beizutragen.
                             <br />
                             <br />
-                            Bei weiteren Fragen oder Sorgen, sprechen Sie uns
+                            Bei weiteren Fragen oder Sorgen sprechen Sie uns
                             einfach an. Wir helfen Ihnen gerne weiter. <br />
                             <br />
                             Ihr Dr. Volker Gerlitzki und Team.
