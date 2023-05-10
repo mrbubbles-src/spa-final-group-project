@@ -13,12 +13,15 @@ iframe {
 form {
     input {
         height: 32px;
-        width: 240px;
+        width: 90%;
         padding: 0px 25px;
         border-radius: 10px;
         border: 1px solid $dblue;
         box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212);
-        font-size: 20px;
+        font: {
+            family: MontserratRegular, sans-serif;
+            size: 20px;
+        }
         transition: 0.2s;
         &:hover {
             background-color: $grey;
@@ -26,7 +29,11 @@ form {
         &:focus {
             background-color: $grey;
             outline: none;
-            width: 265px;
+        }
+        &::placeholder {
+            font: {
+                family: MontserratRegular, sans-serif;
+            }
         }
     }
     textarea {
@@ -36,6 +43,23 @@ form {
         border-radius: 10px;
         border: 1px solid $dblue;
         box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.212);
+        padding: 2rem;
+        font: {
+            family: MontserratRegular, sans-serif;
+            size: $m;
+        }
+        &:hover {
+            background-color: $grey;
+        }
+        &:focus {
+            background-color: $grey;
+            outline: none;
+        }
+        &::placeholder {
+            font: {
+                family: MontserratRegular, sans-serif;
+            }
+        }
     }
 }
 
@@ -61,14 +85,14 @@ form {
         width: 100%;
     }
 }
-#message {
-    font: {
-        family: MontserratRegular, sans-serif;
-    }
-    padding: 2rem;
-    &::placeholder {
-        font: {
-            family: MontserratRegular, sans-serif;
-        }
-    }
-}
+// #message {
+//     font: {
+//         family: MontserratRegular, sans-serif;
+//     }
+//     padding: 2rem;
+//     &::placeholder {
+//         font: {
+//             family: MontserratRegular, sans-serif;
+//         }
+//     }
+// }

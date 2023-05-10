@@ -49,7 +49,7 @@ const KontaktForm = () => {
                 value={formState.name}
                 onChange={handleChange}
                 required
-                placeholder="Name, Vorname"
+                placeholder="Vollständiger Name"
             />
             <label className="cards_title" htmlFor="email">
                 Email:{" "}
@@ -61,7 +61,7 @@ const KontaktForm = () => {
                 value={formState.email}
                 onChange={handleChange}
                 required
-                placeholder="E-Mail-Adresse"
+                placeholder="E-Mail Adresse"
             />
             <label className="cards_title" htmlFor="message">
                 {" "}
