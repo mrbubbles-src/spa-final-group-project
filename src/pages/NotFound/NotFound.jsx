@@ -9,15 +9,13 @@ const NotFound = () => {
                     <img className="not-found-image" src={AceHallo} alt="" />
                 </div>
                 <p className="ze-viers ze-second-vier">4</p>
-            </div>
-            <div className="text">
                 <h2 className="sub-head">
                     Die Seite konnte nicht gefunden werden!
                 </h2>
+                <Link to="/" className="site-links">
+                    Zurück zur Startseite
+                </Link>
             </div>
-            <Link to="/" className="site-links">
-                Zurück zur Startseite
-            </Link>
         </>
     );
 };
