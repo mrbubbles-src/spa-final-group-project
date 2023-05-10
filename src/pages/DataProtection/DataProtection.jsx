@@ -17,13 +17,13 @@ const DataProtection = () => {
                     entsprechend der gesetzlichen Vorschriften. Da durch neue
                     Technologien und die ständige Weiterentwicklung dieser
                     Webseite Änderungen an dieser Datenschutzerklärung
-                    vorgenommen werden können, empfehlen wir Ihnen sich die
+                    vorgenommen werden können, empfehlen wir Ihnen, sich die
                     Datenschutzerklärung in regelmäßigen Abständen wieder
                     durchzulesen.
                 </p>
                 <p className='paraImpr'>
                     Definitionen der verwendeten Begriffe (z.B.
-                    “personenbezogene Daten” oder “Verarbeitung”) finden Sie in
+                    „personenbezogene Daten“ oder „Verarbeitung“) finden Sie in
                     Art. 4 DSGVO.
                 </p>
                 <h3 className='cards_title'>Zugriffsdaten</h3>
@@ -50,7 +50,7 @@ const DataProtection = () => {
                     und anschließend gelöscht. Die Speicherung der Daten erfolgt
                     aus Sicherheitsgründen, um z. B. Missbrauchsfälle aufklären
                     zu können. Müssen Daten aus Beweisgründen aufgehoben werden,
-                    sind sie solange von der Löschung ausgenommen bis der
+                    sind sie so lange von der Löschung ausgenommen, bis der
                     Vorfall endgültig geklärt ist.
                 </p>
                 <h3 className='cards_title'>Umgang mit Kontaktdaten</h3>
@@ -72,7 +72,7 @@ const DataProtection = () => {
                     Abs. 1 lit. f. DSGVO und dient der Sicherheit von uns als
                     Websitebetreiber: Denn sollte Ihr Kommentar gegen geltendes
                     Recht verstoßen, können wir dafür belangt werden, weshalb
-                    wir ein Interesse an der Identität des Kommentar- bzw.
+                    wir ein Interesse an der Identität des Kommentars bzw.
                     Beitragsautors haben.
                 </p>
                 <h3 className='cards_title'>Rechte des Nutzers</h3>

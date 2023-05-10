@@ -27,7 +27,7 @@ export const leistungen = [
         itemEight: "Hunde- und Katzenfriseur",
     },
     {
-        title: "Züchterspezifische Analysen",
+        title: "Züchter Spezifische Analysen",
         itemOne: "DNA-Bestimmungen",
         itemTwo: "Blutgruppen-Bestimmung",
         itemThree: "Reihenuntersuchen",

@@ -7,20 +7,20 @@ import { Link } from "react-router-dom";
 const Praxis = () => {
     return (
         <>
-            <h2 className="sub-head">Über die Praxis</h2>
-            <section className="praxis-section-container">
-                <article className="cards">
+            <h2 className='sub-head'>Über die Praxis</h2>
+            <section className='praxis-section-container'>
+                <article className='cards'>
                     <img
-                        className="cards_image"
+                        className='cards_image'
                         src={VolkerGerlitzki}
-                        alt="Tierarzt Dr. Volker Robert Gerlitzki"
+                        alt='Tierarzt Dr. Volker Robert Gerlitzki'
                     />
-                    <h3 className="cards_title">
+                    <h3 className='cards_title'>
                         Tierarzt Dr. Volker Robert Gerlitzki
                     </h3>
-                    <p className="paragraph">
+                    <p className='paragraph'>
                         Von 1983 bis 1989 hat Dr. Gerlitzki Tiermedizin an der
-                        Tierärztlichen Hochschule in Hannover studiert und
+                        tierärztlichen Hochschule in Hannover studiert und
                         begleitend in den verschiedenen Kliniken an der
                         Hochschule, z.B. in der Vogelklinik, der Heimtierklinik,
                         und der Klinik für kleine Haustiere gearbeitet. Nach
@@ -50,45 +50,45 @@ const Praxis = () => {
                         tätig.
                     </p>
                 </article>
-                <article className="cards">
+                <article className='cards'>
                     <img
-                        className="cards_image img_zwei"
+                        className='cards_image img_zwei'
                         src={BirgitJoswig}
-                        alt="Tierärztin Dr. Birgit Joswig"
+                        alt='Tierärztin Dr. Birgit Joswig'
                     />
                     <h3 className="cards_title">
                         Tierärztin Dr. Birgit Joswig
                     </h3>
-                    <p className="paragraph">
-                        Von 2000 bis 2009 führte Sie eine eigene Praxis in
+                    <p className='paragraph'>
+                        Von 2000 bis 2009 führte sie eine eigene Praxis in
                         Vierlanden.
                         <br />
                         <br />
-                        Seit 2009 ist Sie für die pharmazeutische Industrie in
+                        Seit 2009 ist sie für die pharmazeutische Industrie in
                         der vorklinischen und klinischen Forschung tätig sowie
                         feste Mitarbeiterin der Tierarztpraxis Dr. Gerlitzki.
                         <br />
                         <br />
-                        In mehreren lokalen Vereinen tätig kümmert Sie sich
+                        In mehreren lokalen Vereinen tätig, kümmert sie sich
                         ebenfalls um Ihren beachtlichen Tierbestand.
                     </p>
                 </article>
             </section>
-            <section className="galerie-container galerie-praxis">
-                <h2 className="sub-head">Unsere Räumlichkeiten</h2>
+            <section className='galerie-container galerie-praxis'>
+                <h2 className='sub-head'>Unsere Räumlichkeiten</h2>
                 <p>
                     Hier sehen Sie einen kleinen Vorgeschmack auf unsere
                     Räumlichkeiten.
                 </p>
                 <p>
-                    Für mehr Bilder, besuchen Sie doch unsere{" "}
-                    <Link to={"/galerie#praxis-gal"} className="site-links">
+                    Für mehr Bilder besuchen Sie doch unsere{" "}
+                    <Link to={"/galerie#praxis-gal"} className='site-links'>
                         Galerie
-                    </Link>
+                    </Link>.
                 </p>
                 <GalleryContainer
                     galerie={praxis.slice(0, 3)}
-                    galleryId="aboutPraxis"
+                    galleryId='aboutPraxis'
                 />
             </section>
         </>
