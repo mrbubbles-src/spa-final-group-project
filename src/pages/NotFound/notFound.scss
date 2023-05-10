@@ -4,22 +4,52 @@
 
 .four-oh-four-container {
     display: flex;
+    justify-content: center;
+    flex: {
+        flow: row wrap;
+    }
+    margin: {
+        top: 1rem;
+        bottom: 2.5rem;
+    }
     .ze-viers {
         color: $dblue;
         font: {
             family: MontserratSemiBold;
-            size: 20rem;
+            size: 12.5rem;
         }
     }
-    .ze-second-vier {
-        margin: 0 $m;
-    }
     .not-found-image-container {
-        width: 25rem;
-        height: 30rem;
+        width: 12.5rem;
+        height: 15rem;
+
+        margin: {
+            right: 0.8rem;
+        }
         .not-found-image {
             width: 100%;
             height: 100%;
         }
     }
 }
+// .four-oh-four-container {
+//     display: flex;
+//     .ze-viers {
+//         color: $dblue;
+//         font: {
+//             family: MontserratSemiBold;
+//             size: 20rem;
+//         }
+//     }
+//     .ze-second-vier {
+//         margin: 0 $m;
+//     }
+//     .not-found-image-container {
+//         width: 25rem;
+//         height: 30rem;
+//         .not-found-image {
+//             width: 100%;
+//             height: 100%;
+//         }
+//     }
+// }
