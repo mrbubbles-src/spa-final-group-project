@@ -43,9 +43,7 @@
             @media (min-width: 992px) {
                 &:hover {
                     color: $lgblue;
-                    font: {
-                        family: MontserratBold;
-                    }
+                    text-decoration: underline solid 0.3rem;
                 }
             }
         }
